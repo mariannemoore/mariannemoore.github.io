@@ -1,0 +1,77 @@
+{% if include.layout == "tall-left" %}
+<div class="container row">
+	<div class="column half">
+		<div class="tall">
+
+		</div>
+	</div><!-- /.column -->
+	<div class="column half">
+		<div class="square">
+			{% if include.block-1-title %}
+			<div class="content">
+				<h3>{{ include.block-1-title }}</h3>
+				<p>{{ include.block-1-copy }}</p>
+			</div>
+			{% endif %}
+		</div>
+		<div class="square last">
+			{% if include.block-2-title %}
+			<div class="content">
+				<h3>{{ include.block-2-title }}</h3>
+				<p>{{ include.block-2-copy }}</p>
+			</div>
+			{% endif %}
+		</div>
+	</div><!-- /.column -->
+</div>
+{% endif %}
+
+{% if include.layout == "tall-right" %}
+<!-- Row -->
+<div class="container row">
+	<div class="column half">
+		<div class="square">
+			{% if include.block-1-title %}
+			<div class="content">
+				<h3>{{ include.block-1-title }}</h3>
+				<p>{{ include.block-1-copy }}</p>
+			</div>
+			{% endif %}
+		</div>
+		<div class="square last">
+			{% if include.block-2-title %}
+			<div class="content">
+				<h3>{{ include.block-2-title }}</h3>
+				<p>{{ include.block-2-copy }}</p>
+			</div>
+			{% endif %}
+		</div>
+	</div><!-- /.column -->
+	<div class="column half">
+		<div class="tall">
+
+		</div>
+	</div><!-- /.column -->
+</div>
+{% endif %}
+
+{% if include.layout == "three-col" %}
+<!-- Row -->
+<div class="container row">
+	<div class="column third">
+		<div class="square">
+
+		</div>
+	</div><!-- /.column -->
+	<div class="column third">
+		<div class="square">
+
+		</div>
+	</div><!-- /.column -->
+	<div class="column third">
+		<div class="square">
+
+		</div>
+	</div><!-- /.column -->
+</div>
+{% endif %}

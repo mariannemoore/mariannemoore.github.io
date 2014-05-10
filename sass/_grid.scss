@@ -1,0 +1,113 @@
+/*  Grid layout
+/*==================================================*/
+
+.row {
+
+	.column {
+		float: left;
+		display: inline;
+		margin-left: 10px;
+		margin-right: 10px;
+		overflow: hidden;
+
+	    @media screen and (max-width: 780px) {
+	    	float: none;
+	    	display: block;
+	    	margin: 0;
+	    }
+
+	}
+
+	/* Column sizes */
+
+	.half {
+		width: 460px;
+
+	    @media screen and (max-width: 980px) and (min-width: 781px) {
+	    	width: 364px;
+	    }
+
+	    @media screen and (max-width: 780px) {
+	    	width: 100%;
+	    }
+
+		.square {
+			background: #f7f7f7;
+			margin-bottom: 20px;
+
+			&.last {
+				margin-bottom: 0;
+
+			    @media screen and (max-width: 780px) {
+			    	margin-bottom: 20px;
+			    }
+
+			}
+
+		    @media screen and (max-width: 780px) {
+		    	margin: 0 0 20px 0;
+		    }
+
+		}
+
+	}
+
+	.third {
+		width: 300px;
+		background: #f7f7f7;
+
+	    @media screen and (max-width: 980px) and (min-width: 781px) {
+	    	width: 236px;
+	    }
+
+	    @media screen and (max-width: 780px) {
+	    	width: 100%;
+	    	margin-bottom: 20px;
+	    }
+
+	}
+
+	/* Block sizes */
+
+	.tall {
+		height: 620px;
+		background: #f7f7f7;
+
+	    @media screen and (max-width: 780px) {
+	    	height: 300px;
+	    	margin-bottom: 20px;
+	    }
+
+	}
+
+	.wide {
+		width: 940px;
+		background: #f7f7f7;
+		height: 300px;
+
+	    @media screen and (max-width: 980px) and (min-width: 781px) {
+	    	width: 748px;
+	    }
+
+	    @media screen and (max-width: 780px) {
+	    	width: 100%;
+	    	margin-bottom: 20px;
+	    }
+
+	}
+
+	.square {
+		height: 300px;
+	}
+
+	.content {
+		padding: 2em;
+		background: #f7f7f7;
+
+		h3 {
+			margin-top: 0;
+		}
+
+	}
+
+}

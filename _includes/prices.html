@@ -1,0 +1,11 @@
+<div class="container pricelist">
+	<ul>
+		{% for item in page.pricelist %}
+		<li class="item">
+			<h3>{{ item.service }}</h3>
+			<span class="price">&pound;{{ item.price }}</span>
+			<p>{{ item.description }}</p>
+		</li>
+		{% endfor %}
+	</ul>
+</div>

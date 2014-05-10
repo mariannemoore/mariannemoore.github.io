@@ -1,0 +1,10 @@
+<!-- Pull -->
+<div class="container pull">
+	<div class="padding">
+		<h2>{{ include.title }}</h2>
+		<p>{{ include.copy }}</p>
+		{% if include.button-url %}
+		<a href="{{ include.button-url }}" class="button">{{ include.button-text }}</a>
+		{% endif %}
+	</div>
+</div>
