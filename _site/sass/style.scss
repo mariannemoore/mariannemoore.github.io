@@ -87,12 +87,15 @@ hr {
 /*==================================================*/
 
 header {
-	background-image: url('/img/header-block.png');
+	/*background-image: url('/img/header-block.png');*/
+	background-color: #f7f7f7;
 	@include vendor(background-size, cover);
 	background-position: top;
 	text-align: center;
 
+
 	h1 {
+		@include animation(fadeInDown, 400ms, 200ms, ease, backwards);
 		margin: 8em 0;
 
 	    @media screen and (max-width: 980px) {
@@ -209,6 +212,23 @@ header {
 
 }
 
+/*  404
+/*==================================================*/
+
+body.fourohfour {
+
+	.intro {
+
+		&.container {
+			max-width: 480px;
+			padding-top: 3em;
+			padding-bottom: 0;
+		}
+
+	}
+
+}
+
 /*  Footer
 /*==================================================*/
 
@@ -266,3 +286,8 @@ footer {
 	}
 
 }
+
+/*  Animations
+/*==================================================*/
+
+@import 'animations';

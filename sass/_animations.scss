@@ -1,0 +1,57 @@
+/*  Animations
+/*==================================================*/
+
+@-webkit-keyframes fadeInDown {
+    from {
+        @include opacity(0);
+        -webkit-transform: translateY(-20px);
+    }
+    to {
+        @include opacity(100);
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes fadeInDown {
+    from {
+        @include opacity(0);
+        -moz-transform: translateY(-20px);
+    }
+    to {
+        @include opacity(100);
+        -moz-transform: translateY(0);
+    }
+}
+
+@-ms-keyframes fadeInDown {
+    from {
+        @include opacity(0);
+        -ms-transform: translateY(-20px);
+    }
+    to {
+        @include opacity(100);
+        -ms-transform: translateY(0);
+    }
+}
+
+@-o-keyframes fadeInDown {
+    from {
+        @include opacity(0);
+        -o-transform: translateY(-20px);
+    }
+    to {
+        @include opacity(100);
+        -o-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    from {
+        @include opacity(0);
+        transform: translateY(-20px);
+    }
+    to {
+        @include opacity(100);
+        transform: translateY(0);
+    }
+}
