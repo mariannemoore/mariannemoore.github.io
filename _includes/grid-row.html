@@ -1,12 +1,12 @@
 {% if include.layout == "tall-left" %}
 <div class="container row">
 	<div class="column half">
-		<div class="tall">
+		<div class="tall" style="background-image: url({{ include.image-1 }});">
 
 		</div>
 	</div><!-- /.column -->
 	<div class="column half">
-		<div class="square">
+		<div class="square" style="background-image: url({{ include.image-2 }});">
 			{% if include.block-1-title %}
 			<div class="content">
 				<h3>{{ include.block-1-title }}</h3>
@@ -14,7 +14,7 @@
 			</div>
 			{% endif %}
 		</div>
-		<div class="square last">
+		<div class="square last" style="background-image: url({{ include.image-3 }});">
 			{% if include.block-2-title %}
 			<div class="content">
 				<h3>{{ include.block-2-title }}</h3>
@@ -30,7 +30,7 @@
 <!-- Row -->
 <div class="container row">
 	<div class="column half">
-		<div class="square">
+		<div class="square" style="background-image: url({{ include.image-1 }});">
 			{% if include.block-1-title %}
 			<div class="content">
 				<h3>{{ include.block-1-title }}</h3>
@@ -38,7 +38,7 @@
 			</div>
 			{% endif %}
 		</div>
-		<div class="square last">
+		<div class="square last" style="background-image: url({{ include.image-2 }});">
 			{% if include.block-2-title %}
 			<div class="content">
 				<h3>{{ include.block-2-title }}</h3>
@@ -48,7 +48,7 @@
 		</div>
 	</div><!-- /.column -->
 	<div class="column half">
-		<div class="tall">
+		<div class="tall" style="background-image: url({{ include.image-3 }});">
 
 		</div>
 	</div><!-- /.column -->
@@ -59,17 +59,17 @@
 <!-- Row -->
 <div class="container row">
 	<div class="column third">
-		<div class="square">
+		<div class="square" style="background-image: url({{ include.image-1 }});">
 
 		</div>
 	</div><!-- /.column -->
 	<div class="column third">
-		<div class="square">
+		<div class="square" style="background-image: url({{ include.image-2 }});">
 
 		</div>
 	</div><!-- /.column -->
 	<div class="column third">
-		<div class="square">
+		<div class="square" style="background-image: url({{ include.image-3 }});">
 
 		</div>
 	</div><!-- /.column -->
