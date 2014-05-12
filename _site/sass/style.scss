@@ -97,9 +97,16 @@ header {
 	h1 {
 		@include animation(fadeInDown, 400ms, 200ms, ease, backwards);
 		margin: 8em 0;
+		font-size: 1.5em;
 
 	    @media screen and (max-width: 980px) {
-	    	font-size: 1.5em;
+	    	font-size: 1.25em;
+	    }
+
+	    a {
+	    	display: inline-block;
+	    	padding: .5em 1em;
+	    	border: 2px solid $anchor;
 	    }
 
 	}
@@ -181,7 +188,7 @@ header {
 			}
 
 			p {
-				font-style: italic;
+				/*font-style: italic;*/
 			}
 
 			.price {
