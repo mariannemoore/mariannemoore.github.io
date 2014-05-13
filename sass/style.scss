@@ -87,8 +87,8 @@ hr {
 /*==================================================*/
 
 header {
-	/*background-image: url('/img/header-block.png');*/
-	background-color: #f7f7f7;
+	background-image: url('/img/header-block.png');
+	/*background-color: #f7f7f7;*/
 	@include vendor(background-size, cover);
 	background-position: top;
 	text-align: center;
@@ -115,7 +115,7 @@ header {
 		background-image: none;
 
 		h1 {
-			margin: 2em 0;
+			margin: 3em 0;
 		}
 
 	}
