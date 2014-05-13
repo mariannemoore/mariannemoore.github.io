@@ -20,12 +20,25 @@ In addition to using blocks for images, square blocks can be used to display tex
 
 ### Adding new services
 
-Services are added in the `/prices/index.html` front matter - under the `pricelist` variable - with the following syntax:
+Services are added in the `/prices/index.html` front matter. There are currently 2 list types (`bridal` and `lessons`) which follow the same structure:
 
-	pricelist:
+	bridal:
 	  - service: NAME
 	    description: DESCRIPTION
 	    price: PRICE
+
+or
+
+	lesson:
+	  - service: NAME
+	    description: DESCRIPTION
+	    price: PRICE
+
+These are then passed into the prices include:
+
+	{% include prices.html list="" %}
+
+Where list accepts either `bridal` or `lesson`.
 
 ### Intro blocks
 

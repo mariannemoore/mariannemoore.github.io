@@ -3,24 +3,33 @@ layout: default
 title: Prices
 class: prices
 
-pricelist:
-  - service: this is a title
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
-    price: 55.00
-  - service: this is a title
-    description: This is the copy
-    price: 60.00
-  - service: this is a title
-    description: This is the copy
-    price: 60.00
-  - service: this is a title
-    description: This is the copy
-    price: 50.00
+bridal:
+  - service: Make-up trials
+    description: For brides, the bridal party or special guests. A perfect opportunity to discuss the make-up for your special day.
+    price: 35 ea.
+  - service: Bridal make-up
+    description: On the day. This includes false lashes if required.
+    price: 150
+  - service: Bridal party and special guests make-up
+    description: On the day. This includes false lashes if required.
+    price: 50 ea.
+
+lesson:
+  - service: One on One
+    description: A comprehensive 2.5hr tutorial covering the most important aspects of daily beauty, from skin care to colour.
+    price: 250
+  - service: Group
+    description: A 2.5hr group session covering the same material as the 'One on One' classes. Great for a group of ladies who are looking for a make-up update.
+    price: POA
 ---
 
-{% include intro.html title="Services Pricelist" copy="Below is a complete list of my services. Bridal trial make-up and consultation is best done at least 3-4 weeks before the wedding." %}
+{% include intro.html title="Bridal Pricelist" copy="Bridal trial make-up and consultation is best done at least 3-4 weeks before the wedding." button-text="Email me" button-url="mailto:bookings@mariannemakeup.com" %}
 
-{% include prices.html %}
+{% include prices.html list="bridal" %}
+
+{% include intro.html title="Lessons Pricelist" copy="A personalised consultation with me. You will learn step-by-step how to accentuate your features, gain confidence in your application skills and how to make the most of the make-up you currently own." button-text="Email me" button-url="mailto:bookings@mariannemakeup.com" %}
+
+{% include prices.html list="lesson" %}
 
 <div class="container">
   <p><small><em>Prices listed are subject to change based on reasonable travel expenses. Any changes will be made clear at the time of booking.</em></small></p>
