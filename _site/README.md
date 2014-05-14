@@ -46,7 +46,7 @@ Where list accepts either `bridal` or `lesson`.
 
 	{% include intro.html title="TITLE" copy="DESCRIPTION" %}
 
-That will produce a text-only block, if a button is required, the following parameters can be included:
+That will produce a text-only block. If a button is required, the following parameters can be included:
 
 * `button-url=""`
 * `button-text=""`
@@ -58,3 +58,13 @@ This will include a button with the URL described by `button-url=""` and text as
 'Pull blocks' are used as break-points between image collections. A new instance can be added anywhere using the following include:
 
 	{% include pull.html title="TITLE" copy="DESCRIPTION" %}
+
+### Post images
+
+Images are inserted into posts using the `post-image` include:
+
+	{% include post-image.html path="" %}
+
+This include accepts additional parameters:
+
+* `caption=""`
