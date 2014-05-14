@@ -160,7 +160,7 @@ header {
 /*  Prices
 /*==================================================*/
 
-.pricelist {
+.price-list {
 
 	ul {
 		list-style: none;
@@ -215,6 +215,120 @@ header {
 
 		}
 
+	}
+
+}
+
+/*  Blog
+/*==================================================*/
+
+.blog-list {
+	padding-top: 3em;
+	overflow: hidden;
+
+	.column {
+		float: left;
+		display: inline;
+
+		&.left {
+			width: 640px;
+			margin-right: 10px;
+
+		    @media screen and (max-width: 980px) and (min-width: 781px) {
+		    	width: 374px;
+		    }
+
+		    @media screen and (max-width: 780px) {
+		    	width: 100%;
+		    	float: none;
+		    	display: block;
+		    	margin: 0;
+		    }
+
+		}
+
+		&.right {
+			width: 300px;
+			margin-left: 10px;
+
+		    @media screen and (max-width: 980px) and (min-width: 781px) {
+		    	width: 374px;
+		    }
+
+		    @media screen and (max-width: 780px) {
+		    	width: 100%;
+		    	float: none;
+		    	display: block;
+		    	margin: 0;
+		    }
+
+		}
+
+	}
+
+	h2,
+	.post-date {
+		text-align: center;
+	}
+
+	h3 {
+		margin-top: 0;
+	}
+
+	.post-date {
+		color: #ccc;
+	}
+
+	.post-preview {
+		margin-bottom: 3em;
+		padding-bottom: 3em;
+
+		&.last-post {
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+
+		h2 {
+			margin-top: 0;
+		}
+
+		p {
+			margin-bottom: 0;
+		}
+
+		.read-more {
+			display: block;
+			font-style: italic;
+			margin-top: 1.5em;
+			text-align: center;
+		}
+
+	}
+
+}
+
+.post {
+	padding-top: 3em;
+
+	h2,
+	.post-date {
+		text-align: center;
+	}
+
+	h2 {
+		margin-top: 0;
+	}
+
+	h3 {
+		margin-top: 0;
+	}
+
+	.post-date {
+		color: #ccc;
+	}
+
+	p:last-of-type {
+		margin-bottom: 0;
 	}
 
 }

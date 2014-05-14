@@ -1,0 +1,18 @@
+<div class="container blog-list">
+	<div class="column left">
+		{% for post in site.posts %}
+		{% capture text %}{{ post.content | truncatewords: 40 }}{% endcapture %}
+
+		<div class="post-preview{% if forloop.last %} last-post{% endif %}">
+			<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+			<p class="post-date">{{ post.date | date: '%B %d, %Y' }}</p>
+			{{ text }}
+			<a href="{{ post.url }}" class="read-more">Keep reading&hellip;</a>
+		</div>
+		{% endfor %}
+	</div>
+	<div class="column right">
+		<h3>Featured</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequa.</p>
+	</div>
+</div>
