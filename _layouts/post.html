@@ -1,6 +1,5 @@
 ---
 layout: default
-class: post
 ---
 
 <div class="container post">
@@ -10,4 +9,7 @@ class: post
 
 	{{ content }}
 
+	{% include share-post.html %}
+
+	{% include disqus.html %}
 </div>
