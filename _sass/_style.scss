@@ -1,0 +1,151 @@
+html {
+  background-color: $color-mushroom;
+  color: $color-ink;
+  font-weight: normal;
+  font-family: $font-sans-serif;
+  line-height: 1.25;
+  letter-spacing: -0.3px;
+  font-size: 1em;
+  scroll-behavior: smooth;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+
+  @media screen and (max-width: $breakpoint-small) {
+    font-size: 100%;
+  }
+}
+
+header {
+  @extend .width;
+  @extend .clearfix;
+  padding: $measure;
+
+  h1 {
+    margin: 0;
+  }
+
+  p {
+    font-size: $font-size-small;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+}
+
+main {
+  @extend .width;
+  @extend .clearfix;
+  padding: 0 2em;
+}
+
+.inset-section {
+  padding: 0 $measure;
+}
+
+.negative-inset {
+  margin-left: -$measure;
+  margin-right: -$measure;
+}
+
+.content-width {
+  max-width: 54em;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0;
+}
+
+.standout-text {
+  font-family: $font-serif;
+  font-size: 2em;
+
+  @media screen and (max-width: $breakpoint-small) {
+    font-size: 1.5em;
+  }
+}
+
+.uppercased-text {
+  text-transform: uppercase;
+  font-size: $font-size-small;
+}
+
+.gallery {
+  overflow-x: scroll;
+  display: flex;
+  scrollbar-width: 0;
+  -ms-overflow-style: style;
+
+  div {
+    flex-direction: column;
+    flex-shrink: 0;
+    width: 400px;
+    height: 600px;
+    margin-right: 1em;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+  }
+
+  &::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+
+}
+
+.testimonials {
+
+  blockquote {
+    margin: 0;
+    padding-left: $measure / 2;
+    border-left: 1px solid $color-ink;
+    margin-bottom: $measure;
+  }
+
+  .source {
+    font-family: $font-sans-serif;
+    font-size: initial;
+    text-transform: uppercase;
+    font-style: initial;
+  }
+}
+
+.portrait {
+
+  div {
+    width: 400px;
+    height: 600px;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+  }
+
+}
+
+footer {
+  @extend .width;
+  @extend .clearfix;
+  padding: $measure;
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    float: left;
+    margin-right: $measure / 4;
+    text-transform: uppercase;
+  }
+
+}

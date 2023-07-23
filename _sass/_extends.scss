@@ -1,0 +1,12 @@
+.width {
+  margin: 0;
+  position: relative;
+
+  @media screen and (max-width: $breakpoint-small) {}
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}

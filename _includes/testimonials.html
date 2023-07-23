@@ -1,0 +1,9 @@
+<section class="testimonials content-width">
+    <h2>Testimonials</h2>
+    {% for testimonial in site.data.testimonials %}
+    <blockquote class="{% if forloop.last %}no-bottom-margin{% endif %}">
+        <p class="standout-text">{{ testimonial.testimonial }}</p>
+        <p class="source">&mdash;{{ testimonial.source }}</p>
+    </blockquote>
+    {% endfor %}
+</section>

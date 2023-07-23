@@ -1,0 +1,19 @@
+h1,
+h2,
+h3,
+h4 {
+  position: relative;
+  font-weight: 400;
+  font-style: normal;
+  font-family: $font-serif;
+  font-size: 3em;
+
+  span {
+    font-weight: 400;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}

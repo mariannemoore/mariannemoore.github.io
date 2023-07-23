@@ -1,0 +1,10 @@
+<footer>
+    <ul>
+        {% for menuItem in site.data.footer-menu %}
+        <li><a href="{{ menuItem.url}}">{{menuItem.title}}</a></li>
+        {% unless forloop.last %}
+        <li>&middot;</li>
+        {% endunless %}
+        {% endfor %}
+    </ul>
+</footer>
