@@ -55,7 +55,7 @@ main {
   padding: 0 $measure;
 
   @media screen and (max-width: $breakpoint-small) {
-    padding: 0 $measure / 2;
+    // padding: 0 $measure / 2;
   }
 }
 
@@ -68,8 +68,8 @@ main {
   margin-right: -$measure;
 
   @media screen and (max-width: $breakpoint-small) {
-    margin-left: -$measure / 2;
-    margin-right: -$measure / 2;
+    // margin-left: -$measure / 2;
+    // margin-right: -$measure / 2;
   }
 }
 
@@ -157,8 +157,11 @@ a {
     border: 1px solid $color-ink;
     padding: $measure / 2 $measure;
     border-radius: $measure * 4;
-    font-weight: 600;
     text-transform: uppercase;
+
+    @media screen and (max-width: $breakpoint-small) {
+      padding: $measure / 3 $measure / 2;
+    }
 
     &:hover {
       background: $color-ink;
