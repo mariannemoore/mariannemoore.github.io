@@ -1,14 +1,14 @@
 - service: Bridal Makeup (Trial)
-  cost: $165
+  cost: $150
   description:
 - service: Bridal Makeup (Day of)
-  cost: $275
+  cost: $250
   description:
 - service: Bridal Party Makeup (Trial)
-  cost: $165
+  cost: $150
   description:
 - service: Bridal Party Makeup (Day of)
-  cost: $165
+  cost: $150
   description:
 - service: Special occasion makeup
   cost: $150
@@ -31,6 +31,6 @@
     I'll happily travel to you, however if the total journey time exceeds 2hrs an additional fee of
     $60/hr will be applied.
 - service: Early morning
-  cost: $100
+  cost: $150
   description: |
-    If the call time is before 8am an additional fee of $100 will be applied. 
+    If the call time is before 8am an additional fee of $150 will be applied. 
