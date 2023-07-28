@@ -6,6 +6,6 @@ class: home
 
 {% include gallery.html%}
 
-{% include rates.html %}
+{% include services.html %}
 
 {% include testimonials.html %}

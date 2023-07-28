@@ -1,0 +1,15 @@
+<section class="services content-width">
+    <h2>Services &amp; Rates</h2>
+    {% for service in site.data.services %}
+    <div class="service">
+        <div class="service-details {% if forloop.last %}no-bottom-margin{% endif %}">
+            <p class="service-name">{{ service.service }}</p>
+            <span></span>
+            <p class="service-cost">{{ service.cost }}</p>
+        </div>
+        {% if service.description %}
+        <p class="service-description">{{ service.description }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</section>

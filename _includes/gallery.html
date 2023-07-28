@@ -1,6 +1,6 @@
 <section class="gallery negative-inset">
     {% for image in site.data.gallery %}
-    <div class="image">
+    <div class="image size-{{ image.size }}">
         <img src="/assets/gallery/{{ image.imgName }}" alt="" />
     </div>
     {% endfor %}

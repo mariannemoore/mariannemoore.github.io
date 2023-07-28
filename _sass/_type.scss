@@ -8,8 +8,8 @@ h4 {
   font-family: $font-serif;
   font-size: 3em;
 
-  span {
-    font-weight: 400;
+  @media screen and (max-width: $breakpoint-small) {
+    font-size: 2em;
   }
 }
 

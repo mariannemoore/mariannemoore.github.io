@@ -1,10 +1,18 @@
 - imgName: f7.png
   title: meta title here
+  size: small
 - imgName: f8.png
   title: meta title here
+  size: small
 - imgName: f9.png
   title: meta title here
+  size: small
 - imgName: f10.png
   title: meta title here
+  size: small
+- imgName: f21.png
+  title: meta title here
+  size: large
 - imgName: f11.png
   title: meta title here
+  size: small
