@@ -18,7 +18,7 @@ header {
   padding: $measure;
 
   @media screen and (max-width: $breakpoint-small) {
-    padding: $measure / 2;
+    // padding: $measure / 2;
   }
 
   h1 {
@@ -157,7 +157,6 @@ a {
     border: 1px solid $color-ink;
     padding: $measure / 2 $measure;
     border-radius: $measure * 4;
-    text-transform: uppercase;
 
     @media screen and (max-width: $breakpoint-small) {
       padding: $measure / 3 $measure / 2;
@@ -190,7 +189,7 @@ a {
 }
 
 .intro {
-  margin-top: - 16px;
+  // margin-top: - 16px;
 }
 
 .services {
@@ -224,6 +223,12 @@ a {
       margin: 0;
       margin-left: $measure / 2;
       font-weight: 700;
+
+      @media screen and (max-width: $breakpoint-smallest) {
+        display: block;
+        margin: initial;
+        margin-left: 0;
+      }
     }
 
     span {
