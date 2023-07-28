@@ -136,6 +136,39 @@ main {
 
 }
 
+a {
+  color: $color-ink;
+}
+
+.pill-menu {
+  margin-top: $measure;
+
+  @media screen and (max-width: $breakpoint-small) {
+    margin-top: $measure / 2;
+  }
+
+  a {
+    margin-bottom: $measure / 4;
+  }
+
+  .jumbo-button {
+    display: block;
+    text-align: center;
+    border: 1px solid $color-ink;
+    padding: $measure / 2 $measure;
+    border-radius: $measure * 4;
+    font-weight: 600;
+    text-transform: uppercase;
+
+    &:hover {
+      background: $color-ink;
+      color: $color-mushroom;
+    }
+
+  }
+
+}
+
 .testimonials {
 
   blockquote {
@@ -153,8 +186,11 @@ main {
 
 }
 
+.intro {
+  margin-top: - 16px;
+}
+
 .services {
-  margin-top: -$measure / 2;
 
   .service {
     margin-bottom: $measure / 2;
@@ -185,10 +221,6 @@ main {
       margin: 0;
       margin-left: $measure / 2;
       font-weight: 700;
-
-      @media screen and (max-width: $breakpoint-smallest) {
-        margin: 0;
-      }
     }
 
     span {
@@ -229,11 +261,13 @@ footer {
   @extend .width;
   @extend .clearfix;
   padding: $measure;
+  border-top: 1px solid $color-ink;
 
   ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
   }
 
   li {
