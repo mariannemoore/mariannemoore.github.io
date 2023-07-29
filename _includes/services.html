@@ -4,8 +4,9 @@
     <div class="service">
         <div class="service-details {% if forloop.last %}no-bottom-margin{% endif %}">
             <p class="service-name">{{ service.service }}</p>
-            <span></span>
+            {% if service.cost %}
             <p class="service-cost">{{ service.cost }}</p>
+            {% endif %}
         </div>
         {% if service.description %}
         <p class="service-description">{{ service.description }}</p>

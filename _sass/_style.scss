@@ -161,6 +161,7 @@ main {
     border: 1px solid $color-ink;
     padding: $measure / 2 $measure;
     border-radius: $measure * 4;
+    text-decoration: none;
 
     @media screen and (max-width: $breakpoint-small) {
       padding: $measure / 3 $measure / 2;
@@ -225,23 +226,13 @@ main {
     .service-cost {
       flex: none;
       margin: 0;
-      margin-left: $measure / 2;
-      font-weight: 700;
+      margin-left: auto;
+      font-style: italic;
 
       @media screen and (max-width: $breakpoint-smallest) {
         display: block;
-        margin: initial;
+        margin-top: $measure / 4;
         margin-left: 0;
-      }
-    }
-
-    span {
-      width: 100%;
-      margin-top: 10px;
-      border-top: 1px dashed $color-ink;
-
-      @media screen and (max-width: $breakpoint-smallest) {
-        display: none;
       }
     }
   }
@@ -280,6 +271,10 @@ footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
+  }
+
+  li {
+    margin-bottom: $measure / 4;
   }
 
   .instagram {
