@@ -1,12 +1,16 @@
-- imgName: f22.png
+- imgName: f1.png
+  size: small
+- imgName: f2.png
+  size: small
+- imgName: f3.png
+  size: small
+- imgName: f4.png
+  size: small
+- imgName: f5.png
+  size: small
+- imgName: f6.png
   size: small
 - imgName: f7.png
   size: small
 - imgName: f8.png
-  size: small
-- imgName: f9.png
-  size: small
-- imgName: f10.png
-  size: small
-- imgName: f11.png
   size: small

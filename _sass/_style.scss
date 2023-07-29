@@ -108,7 +108,15 @@ main {
   .image {
     flex-direction: column;
     flex-shrink: 0;
-    margin-right: 1em;
+    margin-right: $measure / 2;
+
+    &.last-image {
+      margin-right: 0;
+    }
+
+    @media screen and (max-width: $breakpoint-small) {
+      margin-right: $measure / 4;
+    }
 
     &.size-small {
       width: 400px;
@@ -134,10 +142,6 @@ main {
 
   }
 
-}
-
-a {
-  color: $color-ink;
 }
 
 .pill-menu {
@@ -276,6 +280,36 @@ footer {
     margin: 0;
     padding: 0;
     overflow: hidden;
+  }
+
+  .instagram {
+    margin-bottom: $measure / 2;
+  }
+
+}
+
+.instagram {
+  display: block;
+  width: 32px;
+
+  #instagram {
+    fill: $color-ink;
+  }
+
+  &:hover #instagram {
+    fill: $color-stone;
+  }
+}
+
+
+.page-header {
+  position: relative;
+
+  .instagram {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -16px;
   }
 
 }

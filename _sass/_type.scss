@@ -15,5 +15,9 @@ h4 {
 
 a {
   text-decoration: none;
-  color: blue;
+  color: $color-ink;
+
+  &:hover {
+    color: $color-stone;
+  }
 }
