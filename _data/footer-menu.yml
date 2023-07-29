@@ -2,5 +2,7 @@
   url: /
 - title: About
   url: /about/
-- title: Bookings
-  url: /
+- title: Bridal bookings
+  url: https://calendly.com/mariannemakeup/bridal-trial
+- title: General inquiries
+  url: mailto:hello@mariannemakup.com?subject=%20Makeup%20inquiry

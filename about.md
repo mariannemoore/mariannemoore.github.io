@@ -19,4 +19,6 @@ class: about
     <p>I would be honoured to join you on your transformative beauty journey. Please don't hesitate to reach out, and together, we can make your makeup dreams a reality.</p>
 </section>
 
+{% include pill-menu.html rates="yes" bio="no" booking="yes" inquiries="yes" %}
+
 {% include testimonials.html %}

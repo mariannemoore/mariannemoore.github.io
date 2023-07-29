@@ -2,9 +2,6 @@
     <ul>
         {% for menuItem in site.data.footer-menu %}
         <li><a href="{{ menuItem.url}}">{{menuItem.title}}</a></li>
-        {% unless forloop.last %}
-        <li>&middot;</li>
-        {% endunless %}
         {% endfor %}
     </ul>
     <p class="uppercased-text">&copy; {{ site.time | date: '%Y' }} Marianne Moore</p>

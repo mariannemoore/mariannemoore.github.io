@@ -1,8 +1,14 @@
 <section class="pill-menu content-width">
+    {% if include.rates == "yes" %}
+    <a href="/#rates" title="Marianne Moore's services and rates" class="jumbo-button">Rates &amp; services</a>
+    {% endif %}
     {% if include.bio == "yes" %}
-    <a href="/about/" title="" class="jumbo-button">Read my bio</a>
+    <a href="/about/" title="Marianne Moore's biography" class="jumbo-button">Read my bio</a>
     {% endif %}
     {% if include.booking == "yes" %}
-    <a href="" title="" class="jumbo-button">Book me</a>
+    <a href="https://calendly.com/mariannemakeup/bridal-trial" title="Marianne Moore bridal inquiry" class="jumbo-button">Bridal bookings</a>
+    {% endif %}
+    {% if include.inquiries == "yes" %}
+    <a href="mailto:hello@mariannemakup.com?subject=%20Makeup%20inquiry" title="Marianne Moore general inquiry" class="jumbo-button">General inquiries</a>
     {% endif %}
 </section>
