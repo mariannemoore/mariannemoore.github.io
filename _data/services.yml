@@ -1,27 +1,27 @@
 bridal:
-  - service: Bridal Makeup (Trial)
+  - service: Bridal Makeup Trial
     cost: $150
     description:
-  - service: Bridal Makeup (Day of)
+  - service: Bridal Makeup
     cost: $250
     description:
-  - service: Bridal Party Makeup (Trial)
+  - service: Bridal Party Makeup Trial
     cost: $150
     description:
-  - service: Bridal Party Makeup (Day of)
+  - service: Bridal Party Makeup
     cost: $150
     description:
 general:
-  - service: Special occasion makeup
+  - service: Special Occasion Makeup
     cost: $150
     description:
-  - service: Commercial rate (4hrs)
+  - service: Commercial Rate (4hrs)
     cost: $475
     description: 
-  - service: Commercial rate (8hrs)
+  - service: Commercial Rate (8hrs)
     cost: $850
     description: 
-  - service: Individual / Group lessons (2hrs)
+  - service: Individual / Group Lessons (2hrs)
     cost: $250
     description:
 additional:
@@ -29,7 +29,7 @@ additional:
     cost:
     description: |
       If the total journey time exceeds 2hrs an additional fee of <strong>$100/hr</strong> will be applied.
-  - service: Early morning
+  - service: Early Morning
     cost: 
     description: |
       If the call time is before 8am an additional fee of <strong>$150</strong> will be applied. 
