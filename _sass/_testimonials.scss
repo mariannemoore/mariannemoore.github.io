@@ -1,0 +1,16 @@
+.testimonials {
+  
+    blockquote {
+      position: relative;
+      margin: 0;
+      padding-left: $measure / 2;
+      border-left: 1px solid $color-ink;
+      margin-bottom: $measure;
+  
+      .standout-text {
+        text-indent: $measure / 2;
+      }
+  
+    }
+  
+  }

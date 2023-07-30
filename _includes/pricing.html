@@ -1,8 +1,10 @@
-<section class="services content-width">
-    <h2 id="pricing">Pricing</h2>
+<section id="pricing" class="pricing content-width">
+    <h2>Pricing</h2>
+
     <div class="section-separator">
         <p class="uppercased-text">Bridal</p>
     </div>
+
     {% for bridal_service in site.data.services.bridal %}
     <div class="service{% if forloop.first %} first-item{% endif %}">
         <div class="service-details">
@@ -16,12 +18,15 @@
         {% endif %}
     </div>
     {% endfor %}
+
     <div class="service-footer">
         <p>All prices include false lashes (if required) and tax.</p>
     </div>
+
     <div class="section-separator">
         <p class="uppercased-text">General</p>
     </div>
+
     {% for general_service in site.data.services.general %}
     <div class="service{% if forloop.first %} first-item{% endif %}">
         <div class="service-details">
@@ -35,12 +40,15 @@
         {% endif %}
     </div>
     {% endfor %}
+
     <div class="service-footer">
         <p>All prices include false lashes (if required) and tax.</p>
     </div>
+
     <div class="section-separator">
         <p class="uppercased-text">Additional fees</p>
     </div>
+    
     {% for additional_service in site.data.services.additional %}
     <div class="service{% if forloop.first %} first-item{% elsif forloop.last %} last-item{% endif %}">
         <div class="service-details">

@@ -11,6 +11,7 @@ h4 {
   @media screen and (max-width: $breakpoint-small) {
     font-size: 2em;
   }
+
 }
 
 a {
@@ -19,4 +20,20 @@ a {
   &:hover {
     color: $color-stone;
   }
+
+}
+
+.uppercased-text {
+  text-transform: uppercase;
+  font-size: $font-size-small;
+}
+
+.standout-text {
+  font-family: $font-serif;
+  font-size: 2em;
+
+  @media screen and (max-width: $breakpoint-small) {
+    font-size: 1.5em;
+  }
+  
 }

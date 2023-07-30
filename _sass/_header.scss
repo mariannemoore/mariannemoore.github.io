@@ -1,0 +1,36 @@
+header {
+    @extend .width;
+    @extend .clearfix;
+    padding: $measure;
+  
+    @media screen and (max-width: $breakpoint-small) {
+      // padding: $measure / 2;
+    }
+  
+    h1 {
+      margin: 0;
+    }
+  
+    div {
+      position: relative;
+    }
+  
+    p {
+      margin: 0;
+      position: relative;
+    }
+  
+    .scroll-hint {
+      position: absolute;
+      top: 0;
+      right: 0;
+      color: $color-stone;
+    }
+  
+    span {
+      @media screen and (max-width: $breakpoint-small) {
+        display: none;
+      }
+    }
+    
+  }

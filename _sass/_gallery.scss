@@ -1,0 +1,48 @@
+.gallery {
+    scrollbar-width: 0;
+    display: flex;
+    overflow-x: scroll;
+  
+    &::-webkit-scrollbar {
+      width: 0;
+      background: transparent;
+    }
+  
+    .image {
+      flex-direction: column;
+      flex-shrink: 0;
+      margin-right: $measure / 2;
+  
+      &.last-image {
+        margin-right: 0;
+      }
+  
+      @media screen and (max-width: $breakpoint-small) {
+        margin-right: $measure / 4;
+      }
+  
+      &.size-small {
+        width: 400px;
+  
+        @media screen and (max-width: $breakpoint-small) {
+          width: 200px;
+        }
+      }
+  
+      &.size-large {
+        width: 816px;
+  
+        @media screen and (max-width: $breakpoint-small) {
+          width: 408px;
+        }
+      }
+  
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+  
+    }
+  
+  }

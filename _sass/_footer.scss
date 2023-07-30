@@ -1,0 +1,22 @@
+footer {
+    @extend .width;
+    @extend .clearfix;
+    padding: $measure;
+    border-top: 1px solid $color-ink;
+  
+    ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  
+    li {
+      margin-bottom: $measure / 4;
+    }
+  
+    .instagram {
+      margin-bottom: $measure / 2;
+    }
+  
+  }

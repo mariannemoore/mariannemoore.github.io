@@ -12,51 +12,14 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-header {
-  @extend .width;
-  @extend .clearfix;
-  padding: $measure;
-
-  @media screen and (max-width: $breakpoint-small) {
-    // padding: $measure / 2;
-  }
-
-  h1 {
-    margin: 0;
-  }
-
-  div {
-    position: relative;
-  }
-
-  p {
-    margin: 0;
-    position: relative;
-  }
-
-  .scroll-hint {
-    position: absolute;
-    top: 0;
-    right: 0;
-    color: $color-stone;
-  }
-
-  span {
-    @media screen and (max-width: $breakpoint-small) {
-      display: none;
-    }
-  }
-  
-}
-
 main {
   @extend .width;
   @extend .clearfix;
   padding: 0 $measure;
+}
 
-  @media screen and (max-width: $breakpoint-small) {
-    // padding: 0 $measure / 2;
-  }
+.content-width {
+  max-width: calc(816px - 2em);
 }
 
 .inset-section {
@@ -66,240 +29,10 @@ main {
 .negative-inset {
   margin-left: -$measure;
   margin-right: -$measure;
-
-  @media screen and (max-width: $breakpoint-small) {
-    // margin-left: -$measure / 2;
-    // margin-right: -$measure / 2;
-  }
-}
-
-.content-width {
-  max-width: calc(816px - 2em);
 }
 
 .no-bottom-margin {
   margin-bottom: 0;
-}
-
-.standout-text {
-  font-family: $font-serif;
-  font-size: 2em;
-
-  @media screen and (max-width: $breakpoint-small) {
-    font-size: 1.5em;
-  }
-}
-
-.uppercased-text {
-  text-transform: uppercase;
-  font-size: $font-size-small;
-}
-
-.gallery {
-  scrollbar-width: 0;
-  display: flex;
-  overflow-x: scroll;
-
-  &::-webkit-scrollbar {
-    width: 0;
-    background: transparent;
-  }
-
-  .image {
-    flex-direction: column;
-    flex-shrink: 0;
-    margin-right: $measure / 2;
-
-    &.last-image {
-      // margin-right: 0;
-    }
-
-    @media screen and (max-width: $breakpoint-small) {
-      margin-right: $measure / 4;
-    }
-
-    &.size-small {
-      width: 400px;
-
-      @media screen and (max-width: $breakpoint-small) {
-        width: 200px;
-      }
-    }
-
-    &.size-large {
-      width: 816px;
-
-      @media screen and (max-width: $breakpoint-small) {
-        width: 408px;
-      }
-    }
-
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-
-  }
-
-  .insta-upsell {
-    flex: none;
-    text-align: center;
-    width: 400px;
-    height: 600px;
-    background: $color-chalk;
-    
-    @media screen and (max-width: $breakpoint-small) {
-      width: 200px;
-      height: 300px;
-    }
-    
-  }
-
-}
-
-.pill-menu {
-  margin-top: $measure;
-
-  a {
-    margin-bottom: $measure / 4;
-
-    &:last-of-type {
-      margin-bottom: 0;
-    }
-
-  }
-
-  .jumbo-button {
-    display: block;
-    text-align: center;
-    border: 1px solid $color-ink;
-    padding: $measure / 2 $measure;
-    border-radius: $measure * 4;
-    text-decoration: none;
-
-    @media screen and (max-width: $breakpoint-small) {
-      padding: $measure / 3 $measure / 2;
-    }
-
-    &:hover {
-      background: $color-ink;
-      color: $color-mushroom;
-    }
-
-  }
-
-}
-
-.testimonials {
-
-  blockquote {
-    position: relative;
-    margin: 0;
-    padding-left: $measure / 2;
-    border-left: 1px solid $color-ink;
-    margin-bottom: $measure;
-
-    .standout-text {
-      text-indent: $measure / 2;
-    }
-
-  }
-
-}
-
-.services {
-  background: $color-chalk;
-  margin-left: -$measure;
-  padding: 0 $measure $measure;
-  margin-top: $measure;
-  overflow: hidden;
-
-  @media screen and (max-width: $breakpoint-small) {
-    margin-right: -$measure;
-  }
-
-  .section-separator {
-    margin: $measure 0;
-  }
-
-  .service {
-    padding: $measure / 2 0;
-    border-bottom: 1px solid $color-ink;
-
-    &.first-item {
-      padding-top: 0;
-    }
-
-    &.last-item {
-      border: 0;
-      padding-bottom: 0;
-    }
-  }
-
-  .service-details {
-    display: flex;
-  }
-
-  .service-name {
-    font-weight: bold;
-    flex: none;
-    margin: 0;
-  }
-
-  .service-cost {
-    flex: none;
-    margin: 0;
-    margin-left: auto;
-  }
-
-  .service-description {
-    margin: $measure / 4 0 0 0;
-    color: $color-stone;
-  }
-
-  .service-footer {
-    font-size: $font-size-small;
-  }
-
-}
-
-.portrait {
-
-  div {
-    max-width: 816px;
-
-    img {
-      display: block;
-      width: 100%;
-      height: auto;
-    }
-
-  }
-
-}
-
-footer {
-  @extend .width;
-  @extend .clearfix;
-  padding: $measure;
-  border-top: 1px solid $color-ink;
-
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-
-  li {
-    margin-bottom: $measure / 4;
-  }
-
-  .instagram {
-    margin-bottom: $measure / 2;
-  }
-
 }
 
 .instagram {
@@ -313,6 +46,7 @@ footer {
   &:hover #instagram {
     fill: $color-stone;
   }
+  
 }
 
 
