@@ -1,36 +1,35 @@
-- service: Bridal Makeup (Trial)
-  cost: $150
-  description:
-- service: Bridal Makeup (Day of)
-  cost: $250
-  description:
-- service: Bridal Party Makeup (Trial)
-  cost: $150
-  description:
-- service: Bridal Party Makeup (Day of)
-  cost: $150
-  description:
-- service: Special occasion makeup
-  cost: $150
-  description: Parties, corporate headshots, etc.
-- service: Commercial rate (4hrs)
-  cost: $475
-  description: 
-- service: Commercial rate (8hrs)
-  cost: $850
-  description: 
-- service: Individual / Group lessons (2hrs)
-  cost: $250
-  description: |
-    Let me show you exactly how to create a flawless makeup look, step-by-step. We'll go 
-    through the products and tools you need, I'll coach you on your application techniques, 
-    create a face-chart with every step and send you a shopping list of all the products we used.
-- service: Travel
-  cost:
-  description: |
-    I'll happily travel to you, however if the total journey time exceeds 2hrs an additional fee of
-    $100/hr will be applied.
-- service: Early morning
-  cost: $150
-  description: |
-    If the call time is before 8am an additional fee of $150 will be applied. 
+bridal:
+  - service: Bridal Makeup (Trial)
+    cost: $150
+    description:
+  - service: Bridal Makeup (Day of)
+    cost: $250
+    description:
+  - service: Bridal Party Makeup (Trial)
+    cost: $150
+    description:
+  - service: Bridal Party Makeup (Day of)
+    cost: $150
+    description:
+general:
+  - service: Special occasion makeup
+    cost: $150
+    description:
+  - service: Commercial rate (4hrs)
+    cost: $475
+    description: 
+  - service: Commercial rate (8hrs)
+    cost: $850
+    description: 
+  - service: Individual / Group lessons (2hrs)
+    cost: $250
+    description:
+additional:
+  - service: Travel
+    cost:
+    description: |
+      If the total journey time exceeds 2hrs an additional fee of <strong>$100/hr</strong> will be applied.
+  - service: Early morning
+    cost: 
+    description: |
+      If the call time is before 8am an additional fee of <strong>$150</strong> will be applied. 

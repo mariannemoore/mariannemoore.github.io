@@ -147,12 +147,13 @@ main {
 .pill-menu {
   margin-top: $measure;
 
-  @media screen and (max-width: $breakpoint-small) {
-    margin-top: $measure / 2;
-  }
-
   a {
     margin-bottom: $measure / 4;
+
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+
   }
 
   .jumbo-button {
@@ -193,54 +194,58 @@ main {
 
 }
 
-.intro {
-  // margin-top: - 16px;
-}
-
 .services {
+  background: $color-chalk;
+  margin-left: -$measure;
+  padding: 0 $measure $measure;
+  margin-top: $measure;
+  overflow: hidden;
+
+  @media screen and (max-width: $breakpoint-small) {
+    margin-right: -$measure;
+  }
+
+  .section-separator {
+    margin: $measure 0;
+  }
 
   .service {
-    margin-bottom: $measure / 2;
-    background: rgba(255,255,255,.15);
-    padding: $measure / 2;
-    border-radius: 3px;
+    padding: $measure / 2 0;
+    border-bottom: 1px solid $color-ink;
+
+    &.first-item {
+      padding-top: 0;
+    }
+
+    &.last-item {
+      border: 0;
+      padding-bottom: 0;
+    }
   }
 
   .service-details {
     display: flex;
+  }
 
-    @media screen and (max-width: $breakpoint-smallest) {
-      display: block;
-    }
+  .service-name {
+    font-weight: bold;
+    flex: none;
+    margin: 0;
+  }
 
-    .service-name {
-      flex: none;
-      margin: 0;
-      margin-right: $measure / 2;
-
-      @media screen and (max-width: $breakpoint-smallest) {
-        margin: 0;
-      }
-    }
-
-    .service-cost {
-      flex: none;
-      margin: 0;
-      margin-left: auto;
-      font-style: italic;
-
-      @media screen and (max-width: $breakpoint-smallest) {
-        display: block;
-        margin-top: $measure / 4;
-        margin-left: 0;
-      }
-    }
+  .service-cost {
+    flex: none;
+    margin: 0;
+    margin-left: auto;
   }
 
   .service-description {
+    margin: $measure / 4 0 0 0;
     color: $color-stone;
-    margin: 0;
-    margin-top: $measure / 4;
+  }
+
+  .service-footer {
+    font-size: $font-size-small;
   }
 
 }
