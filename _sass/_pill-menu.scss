@@ -10,23 +10,4 @@
   
     }
   
-    .jumbo-button {
-      display: block;
-      text-align: center;
-      border: 1px solid $color-ink;
-      padding: $measure / 2 $measure;
-      border-radius: $measure * 4;
-      text-decoration: none;
-  
-      @media screen and (max-width: $breakpoint-small) {
-        padding: $measure / 3 $measure / 2;
-      }
-  
-      &:hover {
-        background: $color-ink;
-        color: $color-mushroom;
-      }
-  
-    }
-  
   }

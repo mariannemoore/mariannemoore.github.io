@@ -7,10 +7,7 @@ class: about
 {% include portrait.html %}
 
 <section class="bio content-width">
-    <div class="page-header">
-        <h2>About me</h2>
-        {% include instagram.html %}
-    </div>
+    <h2>About me</h2>
     <p class="standout-text"> I'm a makeup artist with over 16 years of industry experience. From my training in my hometown in Johannesburg, South Africa, to my work on film and commercial shoots in Dubai, and my tenure at MAC Cosmetics in the UK as a Trainer, I've had the privilege of honing my craft in diverse settings. Along the way, I've had incredible opportunities, including working backstage at London Fashion Weeks, doing makeup for celebrity events, and travelling the world with MAC.</p>
 
     <p>In 2017, life took another turn, leading me to Ottawa, where I embarked on a career in the tech industry. However, my passion for makeup will always be a part of me, and I continued to pursue freelance work by joining forces with Shannon Ranger on the <a href="https://www.onefinebeauty.com/">OneFineBeauty</a> team as a Senior Artist specializing in bridal makeup. In 2020 I had my first child and the world turned upside down. We re-evaluated what our family needed, and decided to make our final move to Victoria in June 2022. We had our second child not long after, and we feel so feel so lucky to call this beautiful island home.</p>

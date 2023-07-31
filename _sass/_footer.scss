@@ -12,11 +12,22 @@ footer {
     }
   
     li {
-      margin-bottom: $measure / 4;
+      float: left;
+      margin-right: $measure / 4;
     }
   
     .instagram {
       margin-bottom: $measure / 2;
+    }
+
+    a {
+      color: $color-stone;
+      text-decoration: none;
+
+      &.active {
+        color: $color-ink;
+      }
+
     }
   
   }
