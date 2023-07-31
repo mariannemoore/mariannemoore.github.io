@@ -6,9 +6,6 @@
     <a href="/about/" title="Marianne Moore's biography" class="jumbo-button">About Me</a>
     {% endif %}
     {% if include.booking == "yes" %}
-    <a href="mailto:hello@mariannemakeup.com?subject=%20Bridal%20inquiry" title="Marianne Moore bridal inquiry" class="jumbo-button">Bridal Bookings</a>
-    {% endif %}
-    {% if include.inquiries == "yes" %}
-    <a href="mailto:hello@mariannemakeup.com?subject=%20Makeup%20inquiry" title="Marianne Moore general inquiry" class="jumbo-button">General Inquiries</a>
+    <a href="{{ site.emailGeneralInquiry }}" title="Marianne Moore bridal inquiry" class="jumbo-button">Send Me An Email</a>
     {% endif %}
 </section>
