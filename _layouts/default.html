@@ -38,4 +38,22 @@ layout: compress
         {% include content.html %}
         {% include footer.html %}
     </body>
+    <script>
+        const gallery = document.getElementById('scrollable');
+        const scrollDistance = 416;
+
+        function scrollLft() {
+            gallery.scrollBy({
+                left: -scrollDistance,
+                behavior: 'smooth'
+            });
+        }
+
+        function scrollRight() {
+            gallery.scrollBy({
+                left: scrollDistance,
+                behavior: 'smooth'
+            });
+        }
+    </script>
 </html>

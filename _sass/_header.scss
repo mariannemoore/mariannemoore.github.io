@@ -36,5 +36,12 @@ header {
         display: none;
       }
     }
+
+    .instagram {
+      position: absolute;
+      right: $measure;
+      top: 50%;
+      margin-top: -16px;
+    }
     
   }
