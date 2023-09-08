@@ -44,6 +44,23 @@
       margin: 0;
       margin-left: auto;
     }
+
+    .cost-increase {
+      display: flex;
+      margin-top: $measure / 4;
+      color: $color-stone;
+    }
+
+    .cost-increase-description {
+      flex: none;
+      margin: 0;
+    }
+
+    .cost-increase-cost {
+      flex: none;
+      margin: 0;
+      margin-left: auto;
+    }
   
     .service-description {
       margin: $measure / 4 0 0 0;

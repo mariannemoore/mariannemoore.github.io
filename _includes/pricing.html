@@ -13,6 +13,12 @@
             <p class="service-cost">{{ bridal_service.cost }}</p>
             {% endif %}
         </div>
+        {% if bridal_service.cost-increase %}
+        <div class="cost-increase">
+            <p class="cost-increase-description">{{ bridal_service.cost-increase-label }}</p>
+            <p class="cost-increase-cost">{{ bridal_service.cost-increase }}</p>
+        </div>
+        {% endif %}
         {% if bridal_service.description %}
         <p class="service-description">{{ bridal_service.description }}</p>
         {% endif %}
