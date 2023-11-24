@@ -1,27 +1,19 @@
 bridal:
   - service: Bridal Makeup Trial
-    cost: $150
-    cost-increase-label: For 2024 bookings
-    cost-increase: $165
+    cost: $165
     description:
   - service: Bridal Makeup
-    cost: $250
-    cost-increase-label: For 2024 bookings
-    cost-increase: $275
+    cost: $275
     description:
   - service: Bridal Party Makeup Trial
-    cost: $150
-    cost-increase-label: For 2024 bookings
-    cost-increase: $165
+    cost: $165
     description:
   - service: Bridal Party Makeup
-    cost: $150
-    cost-increase-label: For 2024 bookings
-    cost-increase: $165
+    cost: $165
     description:
 general:
-  - service: Special Occasion Makeup
-    cost: $150
+  - service: Event / Photo Shoot Makeup
+    cost: $165
     description:
   - service: Commercial Rate (4hrs)
     cost: $475
