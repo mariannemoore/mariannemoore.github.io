@@ -18,6 +18,10 @@ main {
   padding: 0 $measure;
 }
 
+.bridal-prep main {
+  @extend .content-width
+}
+
 .content-width {
   max-width: calc(816px - 2em);
 }
