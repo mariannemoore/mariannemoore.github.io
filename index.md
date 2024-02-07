@@ -8,10 +8,10 @@ class: home
 
 {% include intro.html %}
 
-{% include pill-menu.html rates="no" bio="yes" booking="yes" %}
+{% include pill-menu.html rates="no" bio="yes" booking="yes" calendly="yes" %}
 
 {% include pricing.html %}
 
-{% include pill-menu.html rates="no" bio="no" booking="yes" %}
+{% include pill-menu.html rates="no" bio="yes" booking="yes" calendly="yes" %}
 
 {% include testimonials.html %}

@@ -5,4 +5,8 @@
     {% if include.booking == "yes" %}
     <a href="{{ site.emailGeneralInquiry }}" title="Email Marianne Moore with your inquiry" class="jumbo-button">Contact Me</a>
     {% endif %}
+    {% if include.calendly == "yes" %}
+    <a href="{{ site.calendlyConsultation }}" title="" class="jumbo-button">Book A Free Consultation</a>
+    <a href="{{ site.calendlyLesson }}" title="" class="jumbo-button">Book A Lesson</a>
+    {% endif %}
 </section>
