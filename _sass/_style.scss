@@ -1,5 +1,5 @@
 html {
-  background-color: $color-mushroom;
+  background-color: $color-background;
   color: $color-ink;
   font-weight: normal;
   font-family: $font-sans-serif;
@@ -15,9 +15,46 @@ html {
 main {
   @extend .width;
   @extend .clearfix;
-  padding: 0 $measure;
 }
 
+.content-width {
+  @extend .clearfix;
+  max-width: 860px;
+  margin: 0 auto;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.page-intro .menu {
+  text-align: center;
+  padding-top: 1em;
+
+  li {
+    padding: 1em;
+  }
+}
+
+
+
+.instagram {
+  display: block;
+  width: 32px;
+
+  #instagram {
+    fill: $color-ink;
+  }
+
+  &:hover #instagram {
+    fill: $color-stone;
+  }
+  
+}
+
+
+
+
+
+/*
 .bridal-prep main {
   @extend .content-width
 }
@@ -39,16 +76,5 @@ main {
   margin-bottom: 0;
 }
 
-.instagram {
-  display: block;
-  width: 32px;
 
-  #instagram {
-    fill: $color-ink;
-  }
-
-  &:hover #instagram {
-    fill: $color-stone;
-  }
-  
-}
+*/

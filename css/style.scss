@@ -5,13 +5,12 @@
 @import 'variables';
 @import 'extends';
 @import 'type';
-/* Style */
+/* Base Style */
 @import 'style';
 /* Components */
+@import 'menu';
+@import 'home/hero';
+@import 'home/blurb';
+
 @import 'footer';
-@import 'gallery';
-@import 'header';
-@import 'pill-menu';
-@import 'portrait';
-@import 'pricing';
 @import 'testimonials';

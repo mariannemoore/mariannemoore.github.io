@@ -1,0 +1,10 @@
+- name: home
+  url: "/"
+- name: about
+  url: "/about/"
+- name: bridal
+  url: "/bridal/"
+- name: testimonials
+  url: "/testimonials/"
+- name: contact
+  url: "/contact"

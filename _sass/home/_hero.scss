@@ -1,0 +1,37 @@
+section.hero {
+    background: url("/assets/marianne-portrait-2.png");
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    height: 100vh;
+    overflow: hidden;
+
+    .menu {
+      text-align: center;
+      padding-top: 1em;
+
+      li {
+        padding: 1em;
+      }
+    }
+  
+    .masthead {
+      text-align: center;
+      position: relative;
+      top: 50%;
+      left: 50%;
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+      mix-blend-mode: difference;
+  
+      h1,h2 {
+        margin: 0;
+        color: white;
+      }
+
+      h1 {
+        font-size: 6em;
+      }
+      
+    }
+}
