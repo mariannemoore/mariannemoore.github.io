@@ -1,7 +1,23 @@
 <section class="hero">
-    {% include menu.html %}
-    <div class="masthead">
-        <h1 id="name">Marianne Moore</h1>
-        <h2 id="subtitle">Makeup Artist</h2>
+
+  {% include header.html %}
+
+    <div class="marquee">
+        <span id="marquee-top">
+            {% for i in (1..10) %}
+            Marianne Moore
+            {% unless forloop.last %}
+              &bull;
+            {% endunless %}
+          {% endfor %}  
+        </span>
+        <span id="marquee-bottom">
+            {% for i in (1..10) %}
+            Luxury Bridal Makeup Artist
+            {% unless forloop.last %}
+              &bull;
+            {% endunless %}
+          {% endfor %}          
+        </span>
     </div>
 </section>

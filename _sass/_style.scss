@@ -1,10 +1,11 @@
 html {
   background-color: $color-background;
   color: $color-ink;
-  font-weight: normal;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   font-family: $font-sans-serif;
   line-height: 1.25;
-  letter-spacing: -0.3px;
   font-size: 1em;
   scroll-behavior: smooth;
   -moz-osx-font-smoothing: grayscale;
@@ -20,9 +21,18 @@ main {
 .content-width {
   @extend .clearfix;
   max-width: 860px;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
   padding-left: 2em;
   padding-right: 2em;
+}
+
+section {
+  margin-bottom: calc($measure * 2);
+
+  p {
+    font-size: 1.25em;
+  }
 }
 
 .page-intro .menu {
@@ -34,6 +44,9 @@ main {
   }
 }
 
+.callout {
+  text-align: center;
+}
 
 
 .instagram {
@@ -49,32 +62,3 @@ main {
   }
   
 }
-
-
-
-
-
-/*
-.bridal-prep main {
-  @extend .content-width
-}
-
-.content-width {
-  max-width: calc(816px - 2em);
-}
-
-.inset-section {
-  padding: 0 $measure;
-}
-
-.negative-inset {
-  margin-left: -$measure;
-  margin-right: -$measure;
-}
-
-.no-bottom-margin {
-  margin-bottom: 0;
-}
-
-
-*/

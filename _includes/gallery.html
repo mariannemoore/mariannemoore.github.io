@@ -1,11 +1,3 @@
-<section class="gallery negative-inset">
-    <div id="scrollable" class="gallery-content">
-        {% for image in site.data.gallery %}
-        <div class="image size-{{ image.size }} {% if forloop.last %}last-image{% endif %}">
-            <img src="/assets/gallery/{{ image.imgName }}" alt="Photograph of model with makeup done by Marianne Moore" />
-        </div>
-        {% endfor %}
-    </div>
-    <div class="scroll-backward" onclick="scrollLft()"><span>&larr;</span></div>
-    <div class="scroll-forward" onclick="scrollRight()"><span>&rarr;</span></div>
+<section class="gallery">
+    Gallery
 </section>

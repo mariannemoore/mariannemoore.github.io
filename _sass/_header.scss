@@ -1,0 +1,32 @@
+header {
+    position: relative;
+    height: 5em;
+    line-height: 5em;
+
+    h1 {
+        margin: 0;
+        font-family: $font-sans-serif;
+        font-style: initial;
+        font-size: 2em;
+        font-weight: initial;
+        font-weight: 400;
+        mix-blend-mode: difference;
+        color: white;
+        display: inline-block;
+
+        @media screen and (max-width: $breakpoint-small) {
+            font-size: 1em;
+        }
+    }
+
+    #open-menu-overlay {
+        position: absolute;
+        left: 0;
+        mix-blend-mode: difference;
+        color: white;
+        padding-left: 2em;
+        padding-right: 2em;
+        cursor: pointer;
+      }
+
+}

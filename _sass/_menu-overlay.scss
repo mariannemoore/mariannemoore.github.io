@@ -1,0 +1,68 @@
+#menu-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0;
+
+    .image-bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-image: url(/assets/home/9C9A81281.png);
+        background-size: cover;
+        background-position: top;
+        opacity: 0.2;
+        pointer-events: none;
+    }
+
+    .menu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: $color-background;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            width: 100%;
+
+            li {
+                font-size: 2em;
+                margin: .5em 0;
+
+                @media screen and (max-width: $breakpoint-small) {
+                    font-size: 1.25em; 
+                }
+            }
+
+            a {
+                text-decoration: none;
+                padding-top: .25em;
+                padding-bottom: .25em;
+                display: block;
+            }
+        }
+    }
+
+    #close-menu-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-left: 2em;
+        padding-right: 2em;
+        cursor: pointer;
+        height: 5em;
+        line-height: 5em;
+    }
+}

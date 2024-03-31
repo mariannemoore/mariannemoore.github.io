@@ -2,9 +2,10 @@ h1,
 h2,
 h3 {
   position: relative;
-  font-weight: 400;
-  font-style: normal;
   font-family: $font-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
 
   @media screen and (max-width: $breakpoint-small) {}
 }
@@ -22,13 +23,11 @@ a {
 
 }
 
-.uppercased-text {
-  text-transform: uppercase;
-  font-size: $font-size-small;
-}
-
 .standout-text {
   font-family: $font-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: italic;
   font-size: 4em;
   line-height: 1em;
 

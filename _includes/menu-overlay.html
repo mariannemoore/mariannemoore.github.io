@@ -1,5 +1,5 @@
-<footer class="content-width">
-    <nav class="menu">
+<section id="menu-overlay" style="display: none;">
+    <div class="menu">
         <ul>
             {% for item in site.data.main-menu %}
                 <li class="{% if page.class == item.name %}active{% endif %}">
@@ -7,6 +7,7 @@
                 </li>
             {% endfor %}
         </ul>
-    </nav>
-    <p class="uppercased-text">&copy; {{ site.time | date: '%Y' }} Marianne Moore</p>
-</footer>
+        <span id="close-menu-overlay">Close</span>
+    </div>
+    <div class="image-bg"></div>
+</section>

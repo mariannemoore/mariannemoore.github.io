@@ -1,0 +1,39 @@
+.home-image-grid {
+    position: relative;
+    text-align: center;
+
+    img {
+        width: 100%;
+        height: auto;
+        display: inline-block;
+    }
+
+
+    .main {
+        width: 50%;
+    }
+
+    .side-1,
+    .side-2 {
+        position: absolute;
+        top: 0;
+        width: 40%;
+        z-index: -1;
+    }
+
+    .side-1 {
+        left: 0;
+    }
+
+    .side-2 {
+        right: 0;
+    }
+
+}
+
+.headshot {
+    img {
+        width: 100%;
+        height: auto;
+    }
+}

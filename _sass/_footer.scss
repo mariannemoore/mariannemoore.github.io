@@ -13,7 +13,7 @@ footer {
     }
   
     .instagram {
-      margin-bottom: $measure / 2;
+      margin-bottom: calc($measure / 2);
     }
 
     a {

@@ -1,9 +1,3 @@
 <nav class="menu">
-    <ul>
-        {% for item in site.data.main-menu %}
-            <li class="{% if page.class == item.name %}active{% endif %}">
-                <a href="{{ item.url }}">{{ item.name | capitalize }}</a>
-            </li>
-        {% endfor %}
-    </ul>
+    <span id="open-menu-overlay">Menu</span>
 </nav>

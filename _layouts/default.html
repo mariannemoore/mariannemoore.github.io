@@ -29,12 +29,30 @@ layout: compress
         <link color="#888" href="/favicon.svg" rel="mask-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@1,6..72,200&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
         {% assign cacheBust = site.time | date:'?v=%s' %}
-        <link rel="stylesheet" href="{{ "/css/style.css" | append: cacheBust }}">
+        <link rel="stylesheet" href="{{ "/css/main.css" | append: cacheBust }}">
     </head>
     <body class="{{ page.class }}">
         {% include content.html %}
         {% include footer.html %}
+        {% include menu-overlay.html %}
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const openOverlayButton = document.getElementById('open-menu-overlay');
+                const closeOverlayButton = document.getElementById('close-menu-overlay');
+                const overlay = document.getElementById('menu-overlay');
+        
+                function toggleOverlay() {
+                    overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
+                }
+        
+                openOverlayButton.addEventListener('click', toggleOverlay);
+        
+                closeOverlayButton.addEventListener('click', function() {
+                    overlay.style.display = 'none';
+                });
+            });
+        </script>
     </body>
 </html>
