@@ -4,6 +4,6 @@ title: Contact
 class: contact
 ---
 
-{% include page-intro.html %}
+{% include header.html %}
 
 {% include contact/contact.html %}

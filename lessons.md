@@ -4,6 +4,6 @@ title: Lessons
 class: lessons
 ---
 
-{% include page-intro.html %}
+{% include header.html %}
 
 {% include lessons/lessons.html %}

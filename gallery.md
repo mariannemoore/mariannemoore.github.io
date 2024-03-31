@@ -3,6 +3,7 @@ layout: default
 title: Gallery
 class: gallery
 ---
-{% include page-intro.html %}
+
+{% include header.html %}
 
 {% include gallery/gallery.html %}

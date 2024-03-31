@@ -3,6 +3,7 @@ layout: default
 title: Testimonials
 class: testimonials
 ---
-{% include page-intro.html %}
+
+{% include header.html %}
 
 {% include testimonials/testimonials.html %}

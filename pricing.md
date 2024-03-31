@@ -3,6 +3,7 @@ layout: default
 title: Pricing
 class: pricing
 ---
-{% include page-intro.html %}
+
+{% include header.html %}
 
 {% include pricing/pricing.html %}
