@@ -15,21 +15,4 @@ section.hero {
         padding: 1em;
       }
     }
-
-    .marquee {
-      position: absolute;
-      bottom: 20px;
-      left: -50%;
-      white-space: nowrap;
-      overflow: hidden;
-
-      #marquee-top,
-      #marquee-bottom {
-        mix-blend-mode: difference;
-        color: white;
-        font-size: 2em;
-        display: block;
-        text-align: left;
-      }
-    }
 }

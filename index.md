@@ -19,16 +19,3 @@ class: home
 {% include home/headshot.html %}
 
 {% include home/cta.html %}
-
-<script>
-    document.addEventListener("DOMContentLoaded", function() {
-        const marqueeTop = document.getElementById('marquee-top');
-        const marqueeBottom = document.getElementById('marquee-bottom');
-
-        window.addEventListener('scroll', () => {
-            let offsetForHorizontalMovement = window.scrollY / 5;
-            marqueeTop.style.transform = `translateX(${-offsetForHorizontalMovement}px)`;
-            marqueeBottom.style.transform = `translateX(${offsetForHorizontalMovement}px)`;
-        });
-    });
-</script>

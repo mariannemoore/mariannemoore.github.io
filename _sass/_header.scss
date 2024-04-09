@@ -6,11 +6,7 @@ header {
 
     h1 {
         margin: 0;
-        font-family: $font-sans-serif;
-        font-style: initial;
         font-size: 2em;
-        font-weight: initial;
-        font-weight: 400;
         mix-blend-mode: difference;
         color: white;
         display: inline-block;
@@ -29,5 +25,28 @@ header {
         padding-right: 2em;
         cursor: pointer;
       }
+
+    }
+
+.home {
+    // On our home page, we want the header to have a 
+    // subtle background
+    header{
+        background: rgba($color-background, 0.2);
+    }
+
+}
+
+
+.bridal,
+.lessons,
+.pricing,
+.testimonials,
+.gallery,
+.contact {
+    // On all other pages, a simple border is enough.
+    header {
+        border-bottom: 1px solid $color-chalk;
+    }
 
 }
