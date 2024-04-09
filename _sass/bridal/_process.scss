@@ -1,0 +1,30 @@
+section.bridal-process {
+
+    div {
+        margin-bottom: 1em;
+        position: relative;
+    }
+
+    span {
+        position: absolute;
+        font-size: 1.25em;
+        font-family: $font-serif;
+        height: 1em;
+        top: 50%;
+        margin-top: -0.5em;
+    }
+
+    p {
+        margin: 0;
+        padding-left: $measure;
+    }
+
+    .process-title {
+        font-weight: 600;
+    }
+
+    .process-content {
+
+    }
+
+}

@@ -58,6 +58,12 @@ section {
 
 }
 
+.page-section-title {
+  margin-top: $measure;
+  margin-bottom: $measure;
+  font-size: 2em;
+}
+
 .callout {
   padding: calc($measure * 3) 0;
   text-align: center;

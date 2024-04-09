@@ -1,0 +1,9 @@
+<section class="bridal-process content-width">
+    {% for item in site.data.pages.bridal.process %}
+    <div>
+        <span>{{ forloop.index }}</span>
+        <p class="process-title">{{ item.title }}</p>
+        <p class="process-content">{{ item.content }}</p>
+    </div>
+    {% endfor %}
+</section>
