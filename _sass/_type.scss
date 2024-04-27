@@ -56,13 +56,13 @@ a {
   display: block;
   text-align: center;
   border: 1px solid $color-ink;
-  padding: calc($measure / 2) $measure;
+  padding: $measure / 2 $measure;
   border-radius: $measure * 4;
   text-decoration: none;
   font-weight: bold;
 
   @media screen and (max-width: $breakpoint-small) {
-    padding: calc($measure / 3) calc($measure / 2);
+    padding: $measure / 3 $measure / 2;
   }
 
   &:hover {
