@@ -19,14 +19,14 @@
     .image {
       flex-direction: column;
       flex-shrink: 0;
-      margin-right: $measure / 2;
+      margin-right: calc($measure / 2);
   
       &.last-image {
         margin-right: 0;
       }
   
       @media screen and (max-width: $breakpoint-small) {
-        margin-right: $measure / 4;
+        margin-right: calc($measure / 4);
       }
   
       &.size-small {

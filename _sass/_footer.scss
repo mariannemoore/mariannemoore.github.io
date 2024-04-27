@@ -13,11 +13,11 @@ footer {
   
     li {
       float: left;
-      margin-right: $measure / 4;
+      margin-right: calc($measure / 4);
     }
   
     .instagram {
-      margin-bottom: $measure / 2;
+      margin-bottom: calc($measure / 2);
     }
 
     a {

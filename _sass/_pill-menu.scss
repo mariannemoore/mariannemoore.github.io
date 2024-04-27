@@ -2,7 +2,7 @@
     margin-top: $measure;
   
     a {
-      margin-bottom: $measure / 4;
+      margin-bottom: calc($measure / 4);
   
       &:last-of-type {
         margin-bottom: 0;

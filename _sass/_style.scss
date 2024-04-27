@@ -1,5 +1,4 @@
 html {
-  background-color: $color-mushroom;
   color: $color-ink;
   font-weight: normal;
   font-family: $font-sans-serif;
@@ -10,6 +9,14 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+body {
+  background-color: $color-mushroom;
+}
+
+body.contact {
+  background: white;
 }
 
 main {
