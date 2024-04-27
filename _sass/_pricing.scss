@@ -16,7 +16,7 @@
     }
   
     .service {
-      padding: $measure / 2 0;
+      padding: calc($measure / 2) 0;
       border-bottom: 1px solid $color-ink;
   
       &.first-item {
@@ -47,7 +47,7 @@
 
     .cost-increase {
       display: flex;
-      margin-top: $measure / 4;
+      margin-top: calc($measure / 4);
       color: $color-stone;
     }
 
@@ -63,7 +63,7 @@
     }
   
     .service-description {
-      margin: $measure / 4 0 0 0;
+      margin: calc($measure / 4) 0 0 0;
       color: $color-stone;
     }
   
