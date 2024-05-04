@@ -3,11 +3,11 @@ html {
   color: $color-ink;
   font-family: $font-sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 300;
   font-style: normal;
   font-variation-settings: "slnt" 0;
   line-height: 1.25;
-  font-size: 1em;
+  font-size: 1.125em;
   scroll-behavior: smooth;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -65,7 +65,7 @@ section {
 }
 
 .callout {
-  padding: calc($measure * 3) 0;
+  padding: $measure 0;
   text-align: center;
 
   p {
@@ -86,4 +86,15 @@ section {
     fill: $color-stone;
   }
   
+}
+
+.content-block {
+  text-align: center;
+
+  span {
+    // font-style: italic;
+    // font-weight: 400;
+    font-family: $font-serif;
+  }
+
 }

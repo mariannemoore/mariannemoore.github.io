@@ -16,6 +16,4 @@ class: home
 
 {% include content-block.html content=site.data.pages.home.block-1 %}
 
-{% include home/headshot.html %}
-
 {% include home/cta.html %}

@@ -5,28 +5,36 @@
     img {
         width: 100%;
         height: auto;
-        display: inline-block;
     }
 
-
     .main {
-        width: 50%;
+        width: 40%;
     }
 
     .side-1,
     .side-2 {
         position: absolute;
-        top: 0;
-        width: 40%;
+        width: 30%;
         z-index: -1;
     }
 
     .side-1 {
-        left: 0;
+        left: calc($measure * 2);
+        top: -$measure;
+
+        @media screen and (max-width: $breakpoint-small) {
+            left: $measure;
+        }
+        
     }
 
     .side-2 {
-        right: 0;
+        right: calc($measure * 2);
+        bottom: -$measure;
+
+        @media screen and (max-width: $breakpoint-small) {
+            right: $measure;
+        }
     }
 
 }
