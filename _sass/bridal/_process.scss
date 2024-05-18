@@ -1,4 +1,8 @@
 section.bridal-process {
+    text-align: center;
+    border: 1px solid $color-mushroom;
+    padding: $measure;
+    position: relative;    
 
     div {
         margin-bottom: 1em;
@@ -20,7 +24,8 @@ section.bridal-process {
     }
 
     .process-title {
-        font-weight: 600;
+        // font-weight: 600;
+        font-family: $font-serif;
     }
 
     .process-content {

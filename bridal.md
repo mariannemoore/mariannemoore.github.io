@@ -10,8 +10,16 @@ class: bridal
 
 {% include content-block.html content=site.data.pages.bridal.content-1 %}
 
+{% include button.html href="/contact/" label="Inquire" %}
+
+<section class="content-width">
+    <img src="/assets/home/9C9A6058.jpg" style="width: 100%; height: auto;">
+</section>
+
 {% include content-block.html content=site.data.pages.bridal.content-2 %}
 
-{% include page-section-title.html content="The process" %}
+{% include bridal/image-grid.html %}
 
 {% include bridal/process.html %}
+
+{% include button.html href="/contact/" label="Inquire" %}

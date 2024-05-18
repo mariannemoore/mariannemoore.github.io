@@ -7,7 +7,7 @@ html {
   font-style: normal;
   font-variation-settings: "slnt" 0;
   line-height: 1.25;
-  font-size: 1.125em;
+  font-size: 1em;
   scroll-behavior: smooth;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -97,4 +97,19 @@ section {
     font-family: $font-serif;
   }
 
+}
+
+.button-row {
+  text-align: center;
+  padding: $measure 0;
+
+  a {
+    display: inline-block;
+    padding: calc($measure / 2) $measure;
+    background: $color-chalk;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 8px;
+  }
 }

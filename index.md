@@ -10,10 +10,10 @@ class: home
 
 {% include content-block.html content=site.data.pages.home.intro %}
 
-{% include home/cta.html %}
+{% include button.html href="/bridal/" label="Bridal Services" %}
 
 {% include home/image-grid.html %}
 
-{% include content-block.html content=site.data.pages.home.block-1 %}
+{% include home/testimonial.html %}
 
-{% include home/cta.html %}
+{% include content-block.html content=site.data.pages.home.block-1 %}
