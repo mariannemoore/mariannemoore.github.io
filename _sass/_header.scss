@@ -1,8 +1,15 @@
 header {
-    position: relative;
     height: 5em;
     line-height: 5em;
     text-align: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: rgba($color-background, 0.75);
+    backdrop-filter: blur(10px); /* Background blur */
+    padding: 10px 0;
+    z-index: 1000;
 
     h1 {
         margin: 0;
@@ -27,16 +34,6 @@ header {
       }
 
     }
-
-.home {
-    // On our home page, we want the header to have a 
-    // subtle background
-    header{
-        background: rgba($color-background, 0.2);
-    }
-
-}
-
 
 .bridal,
 .lessons,
