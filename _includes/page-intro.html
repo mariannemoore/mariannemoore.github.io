@@ -1,6 +1,6 @@
 <section class="page-intro content-width">
-    {% if page.title %}
-    <h2>{{ page.title }}</h2>
+    {% if include.title %}
+    <p>{{ include.title }}</p>
     {% endif %}
-    <p class="standout-text">{{ include.callout }}</p>
+    <h1 class="standout-text">{{ include.callout }}</h1>
 </section>

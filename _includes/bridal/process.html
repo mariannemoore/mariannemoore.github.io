@@ -1,7 +1,7 @@
 <section class="bridal-process content-width">
-    <h2>My Process</h2>
     {% for item in site.data.pages.bridal.process %}
     <div>
+        <span>Step {{forloop.index }}</span>
         <p class="process-title">{{ item.title }}</p>
         <p class="process-content">{{ item.content }}</p>
     </div>

@@ -1,49 +1,45 @@
 header {
-    height: 5em;
-    line-height: 5em;
+    height: 6em;
+    line-height: 6em;
     text-align: center;
     position: fixed;
     left: 0;
     right: 0;
     top: 0;
-    background-color: rgba($color-background, 0.75);
-    backdrop-filter: blur(10px); /* Background blur */
-    padding: 10px 0;
-    z-index: 1000;
+    background-color: rgba($color-background, 0.7);
+    backdrop-filter: blur(20px);
+    z-index: 8;
+    display: flex;
+    justify-content: center;
 
     h1 {
         margin: 0;
         font-size: 2em;
-        mix-blend-mode: difference;
-        color: white;
         display: inline-block;
+        flex: 1;
 
         @media screen and (max-width: $breakpoint-small) {
-            font-size: 1em;
+            font-size: 1.5em;
         }
     }
 
+    a {
+        text-decoration: none;
+    }
+
     #open-menu-overlay {
-        position: absolute;
-        left: 0;
-        mix-blend-mode: difference;
-        color: white;
         padding-left: 2em;
         padding-right: 2em;
         cursor: pointer;
-      }
-
     }
 
-.bridal,
-.lessons,
-.pricing,
-.testimonials,
-.gallery,
-.contact {
-    // On all other pages, a simple border is enough.
-    header {
-        border-bottom: 1px solid $color-chalk;
+    .instagram {
+        position: relative;
+        right: 0;
+        padding-left: 2em;
+        padding-right: 2em;
+        cursor: pointer;
+        margin-top: 6px;
     }
 
 }

@@ -4,8 +4,6 @@ title: Pricing
 class: pricing
 ---
 
-{% include header.html %}
-
-{% include page-intro.html callout=site.data.pages.pricing.top-callout %}
+{% include page-intro.html title=page.title callout=site.data.pages.pricing.first-callout %}
 
 {% include pricing/pricing.html %}

@@ -1,5 +1,18 @@
 .home-testimonial {
-    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: calc($measure / 4);
+    margin-top: 6em;
+    margin-bottom: 6em;
+
+    @media screen and (max-width: $breakpoint-small) {
+       display: block; 
+    }
+
+    blockquote {
+        margin: 0;
+        padding: 1em;
+    }
 
     p {
         margin: 0;

@@ -17,6 +17,7 @@ html {
 main {
   @extend .width;
   @extend .clearfix;
+  padding-top: 5em;
 }
 
 .content-width {
@@ -29,8 +30,6 @@ main {
 }
 
 section {
-  margin-bottom: calc($measure * 2);
-
   p {
     font-size: 1.25em;
   }
@@ -65,7 +64,8 @@ section {
 }
 
 .callout {
-  padding: $measure 0;
+  padding-top: calc($measure * 3);
+  padding-bottom: calc($measure * 3);
   text-align: center;
 
   p {
@@ -75,8 +75,7 @@ section {
 
 
 .instagram {
-  display: block;
-  width: 32px;
+  width: 24px;
 
   #instagram {
     fill: $color-ink;
@@ -90,10 +89,23 @@ section {
 
 .content-block {
   text-align: center;
+  padding-top: 6em;
+  padding-bottom: 6em;
+
+  h1 {
+    @extend .standout-text;
+    margin: 0;
+  }
+
+  .content {
+      margin-top: $measure;
+  }
+
+  .button-row {
+    margin-top: $measure;
+  }
 
   span {
-    // font-style: italic;
-    // font-weight: 400;
     font-family: $font-serif;
   }
 
@@ -101,7 +113,6 @@ section {
 
 .button-row {
   text-align: center;
-  padding: $measure 0;
 
   a {
     display: inline-block;

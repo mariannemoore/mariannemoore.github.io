@@ -1,3 +1,17 @@
 <section class="content-block content-width">
-    <p>{{ include.content }}</p>
+    {% if include.subheading %}
+    <p class="subheading">{{ include.subheading }}</p>
+    {% endif %}
+
+    {% if include.h1 %}
+    <h1>{{ include.h1 }}</h1>
+    {% endif %}
+
+    {% if include.content %}
+    <p class="content">{{ include.content }}</p>
+    {% endif %}
+
+    {% if include.buttonURL %}
+    {% include button.html href=include.buttonURL title=include.buttonTitle label=include.buttonLabel %}
+    {% endif %}
 </section>

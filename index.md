@@ -4,16 +4,28 @@ title: Home
 class: home
 ---
 
-{% include home/hero.html %}
+{%
+include content-block.html
+h1=site.data.pages.home.first-callout
+buttonURL="/bridal/"
+buttonTitle="Learn more about my bridal process"
+buttonLabel="Bridal Services"
+%}
 
-{% include callout.html content=site.data.pages.home.callout-1 %}
+{%
+include
+image-grid.html
+img-1="/assets/home/9C9A7892.jpg"
+img-2="/assets/home/9C9A8410.jpg"
+img-3="/assets/home/9C9A6058.jpg"
+%}
 
-{% include content-block.html content=site.data.pages.home.intro %}
-
-{% include button.html href="/bridal/" label="Bridal Services" %}
-
-{% include home/image-grid.html %}
+{%
+include content-block.html
+content=site.data.pages.home.content-block-1
+buttonURL="/bridal/"
+buttonTitle="Learn more about my bridal process"
+buttonLabel="Bridal Services"
+%}
 
 {% include home/testimonial.html %}
-
-{% include content-block.html content=site.data.pages.home.block-1 %}

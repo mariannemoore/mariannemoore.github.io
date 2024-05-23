@@ -34,6 +34,7 @@ layout: compress
         <link rel="stylesheet" href="{{ "/css/main.css" | append: cacheBust }}">
     </head>
     <body class="{{ page.class }}">
+        {% include header.html %}
         {% include content.html %}
         {% include footer.html %}
         {% include menu-overlay.html %}

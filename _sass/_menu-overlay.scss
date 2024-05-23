@@ -5,19 +5,11 @@
     bottom: 0;
     right: 0;
     margin: 0;
-
-    .image-bg {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
-        background-image: url(/assets/9C9A8364.jpg);
-        background-size: cover;
-        background-position: center;
-        opacity: 0.1;
-        pointer-events: none;
-    }
+    z-index: 9;
+    background-color: $color-background;
+    background-image: url(/assets/shadows.jpg);
+    background-size: cover;
+    background-position: bottom;
 
     .menu {
         position: fixed;
@@ -28,7 +20,6 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color: $color-background;
 
         ul {
             list-style: none;
@@ -62,7 +53,7 @@
         padding-left: 2em;
         padding-right: 2em;
         cursor: pointer;
-        height: 5em;
-        line-height: 5em;
+        height: 6em;
+        line-height: 6em;
     }
 }

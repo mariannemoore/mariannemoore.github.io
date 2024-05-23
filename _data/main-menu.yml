@@ -1,5 +1,7 @@
 - name: home
   url: "/"
+- name: about
+  url: "/about/"
 - name: bridal
   url: "/bridal/"
 - name: lessons

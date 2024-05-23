@@ -4,8 +4,6 @@ title: Testimonials
 class: testimonials
 ---
 
-{% include header.html %}
-
-{% include page-intro.html callout=site.data.pages.testimonials.top-callout %}
+{% include page-intro.html title=page.title callout=site.data.pages.testimonials.first-callout %}
 
 {% include testimonials/testimonials.html %}

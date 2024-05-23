@@ -4,8 +4,6 @@ title: Gallery
 class: gallery
 ---
 
-{% include header.html %}
-
-{% include page-intro.html callout=site.data.pages.gallery.top-callout %}
+{% include page-intro.html title=page.title callout=site.data.pages.gallery.first-callout %}
 
 {% include gallery/gallery.html %}
