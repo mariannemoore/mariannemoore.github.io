@@ -2,47 +2,42 @@
     position: fixed;
     top: 0;
     left: 0;
-    bottom: 0;
-    right: 0;
-    margin: 0;
+    width: 100%;
+    height: 100%;
     z-index: 9;
-    background-color: $color-background;
-    background-image: url(/assets/shadows.jpg);
-    background-size: cover;
-    background-position: bottom;
+    background-color: rgba($color-background, 0.7);
+    backdrop-filter: blur(20px);
 
-    .menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        bottom: 0;
-        right: 0;
+    .menu-container {
         display: flex;
-        align-items: center;
         justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+    }
 
-        ul {
-            list-style: none;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            width: 100%;
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
 
-            li {
-                font-size: 2em;
-                margin: .5em 0;
+        li {
+            font-size: 2em;
+            margin: .5em 0;
 
-                @media screen and (max-width: $breakpoint-small) {
-                    font-size: 1.25em; 
-                }
+            @media screen and (max-width: $breakpoint-small) {
+                font-size: 1.25em; 
             }
+        }
 
-            a {
-                text-decoration: none;
-                padding-top: .25em;
-                padding-bottom: .25em;
-                display: block;
-            }
+        a {
+            display: inline-block;
+            text-decoration: none;
+            padding-left: $measure;
+            padding-right: $measure;
+            padding-top: .25em;
+            padding-bottom: .25em;
         }
     }
 

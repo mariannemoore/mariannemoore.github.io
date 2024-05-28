@@ -29,4 +29,4 @@ buttonTitle="Learn more about my bridal process"
 buttonLabel="Bridal Services"
 %}
 
-{% include home/testimonial.html %}
+{% include testimonial-callout.html %}

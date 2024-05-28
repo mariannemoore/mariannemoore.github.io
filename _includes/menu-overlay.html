@@ -1,5 +1,5 @@
 <section id="menu-overlay" style="display: none;">
-    <div class="menu">
+    <div class="menu-container">
         <ul>
             {% for item in site.data.main-menu %}
                 <li class="{% if page.class == item.name %}active{% endif %}">
@@ -7,6 +7,6 @@
                 </li>
             {% endfor %}
         </ul>
-        <span id="close-menu-overlay">Close</span>
     </div>
+    <span id="close-menu-overlay">Close</span>
 </section>

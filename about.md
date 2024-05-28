@@ -4,12 +4,22 @@ title: About
 class: about
 ---
 
-{% include page-intro.html title=page.title callout=site.data.pages.about.first-callout %}
+{%
+include content-block.html
+subheading=page.title
+h1=site.data.pages.about.callout-1
+content=site.data.pages.about.content-1
+%}
 
 {% include about/headshot.html %}
 
-{% include content-block.html content=site.data.pages.about.content-block-1 %}
+{%
+include content-block.html
+h2=site.data.pages.about.callout-1
+content=site.data.pages.about.content-2
+buttonURL="/contact/"
+buttonTitle="Get in touch with Marianne"
+buttonLabel="Inquire"
+%}
 
-{% include button.html href="/contact/" label="Inquire" %}
-
-{% include content-block.html content=site.data.pages.about.content-block-2 %}
+{% include testimonial-callout.html %}
