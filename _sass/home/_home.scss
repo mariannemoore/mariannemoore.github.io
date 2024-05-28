@@ -1,0 +1,50 @@
+.home {
+
+    .testimonials {
+        background-image: url("/assets/home/9C9A8410.jpg");
+        background-size: cover;
+
+        .wrapper {
+            background-color: rgba($color-background, 0.2);
+            backdrop-filter: blur(10px);
+            padding-top: calc($measure * 3);
+            padding-bottom: calc($measure * 3);
+    
+            @media screen and (max-width: $breakpoint-small) {
+                padding-top: $measure;
+                padding-bottom: $measure;
+            }
+        }
+
+        .quotes {
+            @extend .content-width;
+        }
+    
+        blockquote {
+            margin: 0;
+            padding: 1em;
+        }
+    
+        .quote-2 {
+            text-align: right;
+        }
+    
+        p {
+            margin: 0;
+        }
+    
+        .quote-large {
+            font-family: $font-serif;
+            font-size: 3em;
+        }
+    
+        .quote-small {
+            margin: 1em 0;
+        }
+    
+        .source {
+            margin-top: 1em;
+            font-size: 1em;
+        }
+    }
+}

@@ -1,9 +1,18 @@
-<section class="bridal-process content-width">
-    {% for item in site.data.pages.bridal.process %}
-    <div>
-        <span>Step {{forloop.index }}</span>
-        <p class="process-title">{{ item.title }}</p>
-        <p class="process-content">{{ item.content }}</p>
+<section class="full-width-block bridal-process">
+    <div class="wrapper">
+        <div class="content-width">
+            <h2>Booking Process</h2>
+            <div class="full-width-block-content">
+                {% for item in site.data.pages.bridal.process %}
+                <div class="process-step">
+                    <div class="process-inner">
+                        <span>Step {{forloop.index }}</span>
+                        <p class="process-title">{{ item.title }}</p>
+                        <p class="process-content">{{ item.content }}</p>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
     </div>
-    {% endfor %}
 </section>

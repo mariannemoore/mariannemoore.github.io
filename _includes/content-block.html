@@ -7,8 +7,14 @@
     <h1>{{ include.h1 }}</h1>
     {% endif %}
 
+    {% if include.h2 %}
+    <h2>{{ include.h2 }}</h2>
+    {% endif %}
+
     {% if include.content %}
-    <p class="content">{{ include.content }}</p>
+    {% for paragraph in include.content %}
+    <p class="content">{{ paragraph }}</p>
+    {% endfor %}
     {% endif %}
 
     {% if include.buttonURL %}

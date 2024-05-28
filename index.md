@@ -22,6 +22,7 @@ img-3="/assets/home/9C9A6058.jpg"
 
 {%
 include content-block.html
+h2="It's nice to meet you"
 content=site.data.pages.home.content-block-1
 buttonURL="/bridal/"
 buttonTitle="Learn more about my bridal process"

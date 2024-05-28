@@ -92,8 +92,24 @@ section {
   padding-top: 6em;
   padding-bottom: 6em;
 
-  h1 {
+  p {
+    margin: 0;
+  }
+
+  .subheading {
+    display: inline-block;
+    border-bottom: 2px solid $color-chalk;
+    padding-bottom: $measure;
+    margin-bottom: $measure;
+  }
+
+  h1{
     @extend .standout-text;
+    margin: 0;
+  }
+  
+  h2 {
+    @extend .standout-text-smaller;
     margin: 0;
   }
 
@@ -109,6 +125,37 @@ section {
     font-family: $font-serif;
   }
 
+}
+
+.full-width-block {
+  background-image: url("/assets/home/9C9A8410.jpg");
+  background-size: cover;
+
+  .wrapper {
+    background-color: rgba($color-background, 0.2);
+    backdrop-filter: blur(10px);
+    padding-top: calc($measure * 3);
+    padding-bottom: calc($measure * 3);
+
+    @media screen and (max-width: $breakpoint-small) {
+        padding-top: $measure;
+        padding-bottom: $measure;
+    }
+  }
+
+  h2 {
+    @extend .standout-text-smaller;
+    text-align: center;
+    margin: 0;
+  }
+
+  .full-width-block-content {
+    margin-top: calc($measure * 3);
+
+    @media screen and (max-width: $breakpoint-small) {
+      margin-top: $measure;
+    }
+  }
 }
 
 .button-row {

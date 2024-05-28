@@ -1,3 +1,25 @@
-<section class="lesson-options content-width">
-    lessons
+<section class="full-width-block lessons">
+    <div class="wrapper">
+        <div class="content-width">
+            <h2>Pick a lesson</h2>
+            <div class="full-width-block-content">
+                {% for lesson in site.data.pages.lessons.lessons %}
+                <div class="lesson-card-{{ forloop.index }}">
+                    <div class="lesson-card-inner">
+                        <h3>{{ lesson.title }}</h3>
+                        <p class="lesson-price">{{ lesson.price }}</p>
+                        <p class="lesson-time">{{ lesson.time }}</p>
+                        <p>{{ lesson.content }}</p>
+                        {% 
+                            include button.html 
+                            href="/contact/"
+                            title="Book a one on one makeup lesson with Marianne" 
+                            label="Book Now" 
+                        %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
 </section>

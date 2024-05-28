@@ -1,0 +1,57 @@
+.lessons {
+
+    .full-width-block-content {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .lesson-card-1,
+    .lesson-card-2 {
+        flex: 50%;
+    
+        @media screen and (max-width: $breakpoint-small) {
+            flex: 100%;
+        }
+    
+        .button-row a {
+            display: block;
+        }
+    }
+    
+    .lesson-card-inner {
+        padding: $measure;
+        background-color: $color-background;
+    }
+
+    .lesson-card-1 .lesson-card-inner {
+        margin-right: calc($measure / 4);
+        
+        @media screen and (max-width: $breakpoint-small) {
+            margin: 0;
+            margin-bottom: calc($measure / 2);
+        }
+    }
+
+    .lesson-card-2 .lesson-card-inner {
+        margin-left: calc($measure / 4);
+
+        @media screen and (max-width: $breakpoint-small) {
+            margin: 0;
+        }
+    }
+    
+    h2 {
+        margin-top: 0;
+    }
+    
+    .lesson-price {
+        font-size: 2em;
+        margin: 0;
+    }
+    
+    .lesson-time {
+        font-size: 1em;
+        margin: 0;
+        color: $color-stone;
+    }
+}
