@@ -1,29 +1,26 @@
 bridal:
   - service: Bridal Makeup Trial
     cost: $165
-    description:
+    description: Price increase to $175 for 2025 bookings.
   - service: Bridal Makeup
     cost: $275
-    description:
+    description: Price increase to $300 for 2025 bookings.
   - service: Bridal Party Makeup Trial
     cost: $165
-    description:
+    description: Price increase to $175 for 2025 bookings.
   - service: Bridal Party Makeup
     cost: $165
-    description:
+    description: Price increase to $175 for 2025 bookings.
 general:
   - service: Event / Photo Shoot Makeup
     cost: $165
-    description:
-  - service: Commercial Rate (4hrs)
-    cost: $475
-    description: 
-  - service: Commercial Rate (8hrs)
-    cost: $850
-    description: 
-  - service: Individual / Group Lessons (2hrs)
+    description: Price increase to $175 for 2025 bookings.
+  - service: Makeup Lesson (2hrs)
     cost: $250
-    description:
+    description: Price increase to $300 for 2025 bookings.
+  - service: Bridal Makeup Lesson (2.5hrs)
+    cost: $300
+    description: Price increase to $350 for 2025 bookings.
 additional:
   - service: Travel
     cost:

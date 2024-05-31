@@ -1,13 +1,20 @@
 .testimonial {
   position: relative;
+  text-align: center;
   margin: 0;
   padding: 0;
 
     .highlight {
       @extend .standout-text-smallest;
+      margin: 0;
+    }
+
+    .content {
+      font-style: italic;
     }
 
     .cite {
+      color: $color-stone;
       font-size: $font-size-small;
     }
   

@@ -29,4 +29,6 @@ buttonTitle="Learn more about my bridal process"
 buttonLabel="Bridal Services"
 %}
 
+{% include divider.html %}
+
 {% include home/testimonial-block.html %}

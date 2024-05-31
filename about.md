@@ -22,4 +22,6 @@ buttonTitle="Get in touch with Marianne"
 buttonLabel="Inquire"
 %}
 
+{% include divider.html %}
+
 {% include about/testimonial-block.html %}

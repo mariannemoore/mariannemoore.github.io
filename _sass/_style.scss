@@ -174,13 +174,27 @@ section {
 
 .testimonial-block {
   @extend .content-width;
+  margin-top: calc($measure * 3);
+  margin-bottom: calc($measure * 3);
 
-  .pull-left {
-    margin-left: calc($measure * 2);
+  blockquote {
+    margin-bottom: calc($measure * 3);
+
+    &:last-of-type {
+      margin: 0;
+    }
+
   }
 
-  .pull-right {
-    margin-right: calc($measure * 2);
+  .button-row {
+    margin-top: calc($measure * 3);
   }
+}
 
+.divider {
+  margin-left: auto;
+  margin-right: auto;
+  background: $color-chalk;
+  height: 2px;
+  width: calc($measure * 2);
 }

@@ -1,0 +1,38 @@
+.pricing-table {
+    @extend .content-width;
+    margin-bottom: calc($measure * 3);
+
+    .service {
+        margin-bottom: calc($measure / 2);
+        padding-bottom: calc($measure / 2);
+        border-bottom: 1px solid $color-chalk;
+
+        &.last-item {
+            border: none;
+        }
+    }
+
+    .service-details {
+        display: flex;
+
+        .service-name {
+            flex: none;
+            margin: 0;
+        }
+
+        .service-cost {
+            margin: 0;
+            margin-left: auto;
+        }
+    }
+
+    .service-description {
+        margin: 0;
+        color: $color-stone;
+    }
+
+    .service-footer {
+        font-size: $font-size-small;
+        font-style: italic;
+    }
+}

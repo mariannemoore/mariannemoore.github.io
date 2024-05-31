@@ -1,4 +1,26 @@
 .testimonials-list {
     @extend .content-width;
     margin-bottom: calc($measure * 3);
+
+    blockquote {
+        margin-bottom: calc($measure * 3);
+
+        &:last-of-type {
+            margin: 0;
+        }
+
+    }
+
+    .highlighted-quote {
+        margin-left: -$measure;
+        margin-right: -$measure;
+        background-image: url("/assets/9C9A8364.jpg");
+        padding: $measure;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
 }

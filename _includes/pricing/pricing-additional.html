@@ -1,0 +1,17 @@
+<section class="pricing-table additional-pricing">
+    <h2>Additional Pricing</h2>
+
+    {% for pricing in site.data.pricing.additional %}
+    <div class="service{% if forloop.last %} last-item{% endif %}">
+        <div class="service-details">
+            <p class="service-name">{{ pricing.service }}</p>
+            {% if pricing.cost %}
+            <p class="service-cost">{{ pricing.cost }}</p>
+            {% endif %}
+        </div>
+        {% if pricing.description %}
+        <p class="service-description">{{ pricing.description }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+</section>
