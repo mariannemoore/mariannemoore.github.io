@@ -41,6 +41,13 @@
         }
     }
 
+    .divider {
+        display: inline-block;
+        height: 2px;
+        background: $color-stone;
+        width: 1em;
+    }
+
     #close-menu-overlay {
         position: absolute;
         top: 0;

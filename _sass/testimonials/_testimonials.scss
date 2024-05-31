@@ -1,0 +1,4 @@
+.testimonials-list {
+    @extend .content-width;
+    margin-bottom: calc($measure * 3);
+}

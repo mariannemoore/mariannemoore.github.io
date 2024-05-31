@@ -15,11 +15,11 @@ content=site.data.pages.about.content-1
 
 {%
 include content-block.html
-h2=site.data.pages.about.callout-1
+h2=site.data.pages.about.callout-2
 content=site.data.pages.about.content-2
 buttonURL="/contact/"
 buttonTitle="Get in touch with Marianne"
 buttonLabel="Inquire"
 %}
 
-{% include testimonial-callout.html %}
+{% include about/testimonial-block.html %}

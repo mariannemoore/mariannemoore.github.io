@@ -1,3 +1,7 @@
-callout-1: I'm Marianne, a professional bridal makeup artist based in Victoria BC.
-content-1: With over 17 years of industry experience, I've gained a global perspective. From my start in Johannesburg to work in Dubai and the UK, including tenure at MAC Cosmetics as a Trainer, I've honed my craft in diverse settings. Highlights include backstage work at London Fashion Weeks, makeup for celebrity events, and global travel with MAC. 
-content-2: My makeup artistry revolves around the individual. While I adore the versatility of my craft, my primary focus is on making people feel amazing. Whether you seek a subtle enhancement or a dramatic transformation, I can fulfill any makeup desire. I specialize in creating luminous, dimensional looks tailored to your unique style. Embracing makeup as an inclusive art form, I excel in working with all skin types and tones.
+callout-1: I’m Marianne, a professional bridal makeup artist based in Victoria BC.
+content-1: With over <span>17 years</span> of industry experience, I’ve gained a <span>global</span> perspective. From my start in <span>Johannesburg</span> to work in <span>Dubai</span> and the <span>UK</span>, including tenure at <span>MAC Cosmetics</span> as a Trainer, I’ve honed my craft in diverse settings. Some highlights include backstage work at multiple <span>London Fashion Weeks</span>, makeup for <span>celebrity</span> events, and global travel with MAC. 
+callout-2: I’m here to enhance your beauty and boost your confidence.
+content-2: 
+  - 
+  - My makeup artistry revolves around you, the <span>individual</span>. While I adore the versatility of my craft, my primary focus is on making people feel <span>amazing</span>. I specialize in creating <span>glowing</span> and <span>natural</span> looks tailored to your unique style. I embrace makeup as an <span>inclusive</span> art form, and excel in working with <span>all</span> skin types and tones.
+  - When I’m not doing makeup you’ll find me on the <span>beach</span> with a good latte and my family, <span>hiking</span> with my Husky Luna or planning our next trip to Hawaii.

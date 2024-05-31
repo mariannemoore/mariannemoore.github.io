@@ -4,6 +4,11 @@ title: Contact
 class: contact
 ---
 
-{% include page-intro.html callout=site.data.pages.contact.first-callout %}
+{%
+include content-block.html
+subheading=page.title
+h1=site.data.pages.contact.callout-1
+content=site.data.pages.contact.content-1
+%}
 
 {% include contact/contact.html %}

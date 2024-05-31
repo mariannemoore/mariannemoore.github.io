@@ -1,8 +1,11 @@
-<section class="testimonials content-width">
+<section class="testimonials-list">
     {% for testimonial in site.data.testimonials %}
-    <blockquote class="{% if forloop.last %}no-bottom-margin{% endif %}">
+    <blockquote class="testimonial pull-{{ include.pull }} {% if forloop.last %}no-bottom-margin{% endif %}">
+        <p class="highlight">"{{ testimonial.highlight }}"</p>
         <p>{{ testimonial.testimonial }}</p>
-        <p>&mdash; {{ testimonial.source }}</p>
+        <p class="cite">&mdash; {{ testimonial.cite }}</p>
     </blockquote>
     {% endfor %}
 </section>
+
+

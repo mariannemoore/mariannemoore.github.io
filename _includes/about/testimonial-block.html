@@ -1,0 +1,18 @@
+<section class="testimonial-block">
+    {% assign testimonial-1 = site.data.testimonials[0] %}
+    {% assign testimonial-2 = site.data.testimonials[1] %}
+    {%
+        include testimonial.html
+        pull="left"
+        highlight=testimonial-1.highlight
+        content=testimonial-1.testimonial
+        cite=testimonial-1.cite 
+    %}
+    {%
+        include testimonial.html
+        pull="right"
+        highlight=testimonial-2.highlight
+        content=testimonial-2.testimonial
+        cite=testimonial-2.cite 
+    %}
+</section>
