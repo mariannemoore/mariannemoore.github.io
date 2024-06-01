@@ -29,10 +29,12 @@
     .service-description {
         margin: 0;
         color: $color-stone;
+        font-size: 1em;
     }
 
     .service-footer {
         font-size: $font-size-small;
         font-style: italic;
+        margin-bottom: $measure;
     }
 }

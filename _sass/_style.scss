@@ -132,7 +132,7 @@ section {
   background-size: cover;
 
   .wrapper {
-    background-color: rgba($color-background, 0.2);
+    background-color: rgba($color-background, 0.5);
     backdrop-filter: blur(10px);
     padding-top: calc($measure * 3);
     padding-bottom: calc($measure * 3);
@@ -161,14 +161,22 @@ section {
 .button-row {
   text-align: center;
 
-  a {
+  .primary,
+  .secondary {
     display: inline-block;
     padding: calc($measure / 2) $measure;
-    background: $color-chalk;
     font-weight: 600;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 8px;
+  }
+
+  .primary {
+    background: $color-chalk;
+  }
+
+  .secondary {
+    border: 1px solid $color-stone;
   }
 }
 

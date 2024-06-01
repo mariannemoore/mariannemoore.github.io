@@ -5,9 +5,11 @@
     {% if forloop.last %}no-bottom-margin{% endif %}
     {% if forloop.index == 2 or forloop.index == 4%}highlighted-quote{% endif %}
     ">
+    <div>
         <p class="highlight">"{{ testimonial.highlight }}"</p>
         <p class="content">{{ testimonial.testimonial }}</p>
         <p class="cite">&mdash; {{ testimonial.cite }}</p>
+    </div>
     </blockquote>
     {% endfor %}
 </section>

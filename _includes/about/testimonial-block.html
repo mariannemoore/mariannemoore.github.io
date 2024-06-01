@@ -1,6 +1,5 @@
 <section class="testimonial-block">
-    {% assign testimonial-1 = site.data.testimonials[2] %}
-    {% assign testimonial-2 = site.data.testimonials[3] %}
+    {% assign testimonial-1 = site.data.testimonials[1] %}
     
     {%
         include testimonial.html
@@ -10,18 +9,11 @@
         cite=testimonial-1.cite 
     %}
 
-    {%
-        include testimonial.html
-        pull="right"
-        highlight=testimonial-2.highlight
-        content=testimonial-2.testimonial
-        cite=testimonial-2.cite 
-    %}
-
     {% 
         include button.html 
         href="/testimonials/" 
         title="View more of Marianne's client testimonials" 
         label="More Testimonials"
+        type="secondary"
     %}
 </section>

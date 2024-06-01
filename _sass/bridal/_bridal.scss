@@ -1,8 +1,23 @@
 .bridal-process {
+    text-align: center;
+    background-image: url("/assets/bridal/process.jpg");
 
-    .full-width-block-content {
-        background: $color-background;
-        padding: $measure;
+    .process-step {
+        margin-bottom: $measure;
+
+        &:last-of-type {
+            margin: 0;
+        }
+
+    }
+
+    .divider {
+        margin-top: $measure;
+        margin-bottom: $measure;
+        background: $color-ink;
+    }
+
+    .process-content {
     }
 
 }
