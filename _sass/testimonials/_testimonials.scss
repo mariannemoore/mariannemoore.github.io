@@ -12,16 +12,7 @@
     }
 
     .highlighted-quote {
-        margin-left: -$measure;
-        margin-right: -$measure;
-        background-image: url("/assets/home/9C9A8410.jpg");
-        background-size: cover;
-
-        div {
-            padding: $measure;
-            background-color: rgba($color-background, 0.5);
-            backdrop-filter: blur(10px);
-        }
+        color: $color-stone;
     }
 
 
