@@ -17,9 +17,9 @@ buttonLabel="Inquire"
 {%
 include
 image-grid.html
-img-1="/assets/bridal/9C9A6440.jpg"
-img-2="/assets/bridal/9C9A6801.jpg"
-img-3="/assets/bridal/9C9A6634.jpg"
+img-1="/assets/bridal/bridal-1.jpg"
+img-2="/assets/bridal/bridal-2.jpg"
+img-3="/assets/bridal/bridal-3.jpg"
 %}
 
 {%

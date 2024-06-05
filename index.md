@@ -15,9 +15,9 @@ buttonLabel="Bridal Services"
 {%
 include
 image-grid.html
-img-1="/assets/home/9C9A7892.jpg"
-img-2="/assets/home/9C9A8410.jpg"
-img-3="/assets/home/9C9A6058.jpg"
+img-1="/assets/home/home-1.jpg"
+img-2="/assets/home/home-2.jpg"
+img-3="/assets/home/home-3.jpg"
 %}
 
 {%
