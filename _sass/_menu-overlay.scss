@@ -51,12 +51,13 @@
 
     #close-menu-overlay {
         position: absolute;
-        top: 0;
-        left: 0;
-        padding-left: 2em;
-        padding-right: 2em;
-        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6em;
         height: 6em;
-        line-height: 6em;
+        left: 0;
+        top: 0;
+        cursor: pointer;
     }
 }
