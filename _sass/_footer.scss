@@ -3,8 +3,8 @@ footer {
 
     .inner {
       @extend .content-width;
-      padding-top: calc($measure * 2);
-      padding-bottom: calc($measure * 2);
+      padding-top: 4em;
+      padding-bottom: 4em;
     }
 
     .menu {
@@ -26,7 +26,7 @@ footer {
     }
   
     .instagram {
-      margin-bottom: calc($measure / 2);
+      margin-bottom: 1em;
     }
 
     p {
