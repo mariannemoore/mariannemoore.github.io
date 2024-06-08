@@ -34,7 +34,4 @@ content=site.data.pages.lessons.content-2
 include content-block.html
 h2=site.data.pages.lessons.callout-3
 content=site.data.pages.lessons.content-3
-buttonURL="/contact/"
-buttonTitle="Get in touch with Marianne"
-buttonLabel="Book a Lesson"
 %}
