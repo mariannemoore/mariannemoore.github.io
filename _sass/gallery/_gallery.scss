@@ -1,0 +1,19 @@
+.image-gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+
+    .image {
+        flex: 1 1 33.333%;
+
+        @media screen and (max-width: $breakpoint-small) {
+            flex: 1 1 50%;
+            height: 500px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+}

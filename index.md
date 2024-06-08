@@ -31,4 +31,4 @@ buttonLabel="Bridal Services"
 
 {% include divider.html %}
 
-{% include home/testimonial-block.html %}
+{% include home/testimonial-block.html testimonial=6 %}

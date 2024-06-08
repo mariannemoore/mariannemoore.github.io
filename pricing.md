@@ -13,10 +13,10 @@ content=site.data.pages.pricing.content-1
 
 {% include pricing/pricing-bridal.html %}
 
-{% include pricing/testimonial-block.html id=0 %}
+{% include pricing/testimonial-block.html testimonial=0 %}
 
 {% include pricing/pricing-general.html %}
 
-{% include pricing/testimonial-block.html id=1 %}
+{% include pricing/testimonial-block.html testimonial=1 %}
 
 {% include pricing/pricing-additional.html %}

@@ -4,6 +4,11 @@ sass:
 markdown: kramdown
 kramdown:
     auto_ids: true
+defaults:
+  - scope:
+      path: "assets/gallery"
+    values:
+      image: true
 # URLs, etc
 emailGeneralInquiry: "mailto:hello@mariannemakeup.com?subject=%20General%20inquiry"
 emailBridalInquiry: "mailto:hello@mariannemakeup.com?subject=%20Bridal%20inquiry"

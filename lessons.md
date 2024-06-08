@@ -15,7 +15,7 @@ buttonLabel="Book a Lesson"
 %}
 
 <section class="content-width">
-    <img src="/assets/lessons/lesson-1.jpg" style="width: 100%; height: auto;">
+    <img src="/assets/lessons/lessons.jpg" style="width: 100%; height: auto;">
 </section>
 
 {%
@@ -26,7 +26,7 @@ content=site.data.pages.lessons.content-2
 
 {% include divider.html %}
 
-{% include lessons/testimonial-block.html %}
+{% include lessons/testimonial-block.html testimonial=1 %}
 
 {% include lessons/lesson-options.html %}
 

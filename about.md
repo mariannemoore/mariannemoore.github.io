@@ -24,4 +24,4 @@ buttonLabel="Inquire"
 
 {% include divider.html %}
 
-{% include about/testimonial-block.html %}
+{% include about/testimonial-block.html testimonial=3 %}
