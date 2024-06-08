@@ -15,6 +15,10 @@
     .service-details {
         display: flex;
 
+        @media screen and (max-width: $breakpoint-small) {
+            display: block;
+        }
+
         .service-name {
             flex: none;
             margin: 0;
@@ -23,6 +27,13 @@
         .service-cost {
             margin: 0;
             margin-left: auto;
+
+            @media screen and (max-width: $breakpoint-small) {
+                display: block;
+                margin-top: .5em;
+                margin-bottom: .5em;
+                font-weight: 500;
+            }
         }
     }
 
