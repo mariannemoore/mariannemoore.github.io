@@ -9,7 +9,9 @@ lessons:
     content: Do you want to <span>improve</span> your current products? This option is ideal if you’re stuck, or need a guide on maximizing what you own. 
     price: $250
     time: 2hrs
+    url: https://calendly.com/mariannemakeup/makeup-lesson
   - title: Bridal Makeup Lesson
     content: Are you planning your wedding, or having trouble finding an artist? This detailed lesson will show you how to create your ideal bridal look. 
     price: $350
     time: 2.5hrs
+    url: https://calendly.com/mariannemakeup/bridal-makeup-lesson
