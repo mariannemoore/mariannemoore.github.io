@@ -1,33 +1,35 @@
 footer {
-    @extend .width;
-    @extend .clearfix;
-    padding: $measure;
-    border-top: 1px solid $color-ink;
-  
-    ul {
-      list-style: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
+    background: white;
+
+    .inner {
+      @extend .content-width;
+      padding-top: calc($measure * 2);
+      padding-bottom: calc($measure * 2);
     }
-  
+
+    .menu {
+      margin-bottom: $measure;
+
+      a {
+        display: inline-block;
+        padding-bottom: 0.5em;
+      }
+    }
+
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
     li {
-      float: left;
-      margin-right: $measure / 4;
+      flex: 50%;
     }
   
     .instagram {
-      margin-bottom: $measure / 2;
+      margin-bottom: calc($measure / 2);
     }
 
-    a {
-      color: $color-stone;
-      text-decoration: none;
-
-      &.active {
-        color: $color-ink;
-      }
-
+    p {
+      margin: 0;
     }
-  
-  }
+}

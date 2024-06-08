@@ -27,9 +27,9 @@ layout: compress
         <meta property="twitter:description" content="Marianne Moore is a luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg">
         <link color="#888" href="/favicon.svg" rel="mask-icon">
-        <link rel="preconnect" href="https://fonts.googleapis.com"> 
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
-        <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif+Display:ital,wght@1,300&display=swap" rel="stylesheet">
         {% assign cacheBust = site.time | date:'?v=%s' %}
         <link rel="stylesheet" href="{{ "/css/main.css" | append: cacheBust }}">
     </head>
@@ -37,23 +37,23 @@ layout: compress
         {% include header.html %}
         {% include content.html %}
         {% include footer.html %}
+        {% include menu-overlay.html %}
+        <script>
+            document.addEventListener("DOMContentLoaded", function() {
+                const openOverlayButton = document.getElementById('open-menu-overlay');
+                const closeOverlayButton = document.getElementById('close-menu-overlay');
+                const overlay = document.getElementById('menu-overlay');
+        
+                function toggleOverlay() {
+                    overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
+                }
+        
+                openOverlayButton.addEventListener('click', toggleOverlay);
+        
+                closeOverlayButton.addEventListener('click', function() {
+                    overlay.style.display = 'none';
+                });
+            });
+        </script>
     </body>
-    <script>
-        const gallery = document.getElementById('scrollable');
-        const scrollDistance = 416;
-
-        function scrollLft() {
-            gallery.scrollBy({
-                left: -scrollDistance,
-                behavior: 'smooth'
-            });
-        }
-
-        function scrollRight() {
-            gallery.scrollBy({
-                left: scrollDistance,
-                behavior: 'smooth'
-            });
-        }
-    </script>
 </html>

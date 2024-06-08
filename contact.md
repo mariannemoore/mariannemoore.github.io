@@ -4,11 +4,11 @@ title: Contact
 class: contact
 ---
 
-<div class="hb-p-64fa091b71ca9c02bbe52c0a-1"></div><img height="1" width="1" style="display:none" src="https://www.honeybook.com/p.png?pid=64fa091b71ca9c02bbe52c0a">
-<script>
-  (function(h,b,s,n,i,p,e,t) {
-    h._HB_ = h._HB_ || {};h._HB_.pid = i;;;;
-    t=b.createElement(s);t.type="text/javascript";t.async=!0;t.src=n;
-    e=b.getElementsByTagName(s)[0];e.parentNode.insertBefore(t,e);
-})(window,document,"script","https://widget.honeybook.com/assets_users_production/websiteplacements/placement-controller.min.js","64fa091b71ca9c02bbe52c0a");
-</script>
+{%
+include content-block.html
+subheading=page.title
+h1=site.data.pages.contact.callout-1
+content=site.data.pages.contact.content-1
+%}
+
+{% include contact/contact.html %}

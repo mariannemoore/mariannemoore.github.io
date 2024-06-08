@@ -1,0 +1,8 @@
+<section class="image-gallery-grid">
+    {% assign image_files = site.static_files | where: "image", true %}
+    {% for image in image_files %}
+    <div class="image">
+        <img src="{{ image.path }}" alt="">
+    </div>
+    {% endfor %}
+</section>

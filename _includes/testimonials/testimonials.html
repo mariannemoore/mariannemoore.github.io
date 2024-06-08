@@ -1,0 +1,17 @@
+<section class="testimonials-list">
+    {% for testimonial in site.data.testimonials %}
+    <blockquote class="
+    testimonial
+    {% if forloop.last %}no-bottom-margin{% endif %}
+    {% if forloop.index == 2 or forloop.index == 4 or forloop.index == 6 or forloop.index == 8 %}highlighted-quote{% endif %}
+    ">
+    <div>
+        <p class="highlight">"{{ testimonial.highlight }}"</p>
+        <p class="content">{{ testimonial.testimonial }}</p>
+        <p class="cite">&mdash; {{ testimonial.cite }}</p>
+    </div>
+    </blockquote>
+    {% endfor %}
+</section>
+
+

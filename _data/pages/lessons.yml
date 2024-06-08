@@ -1,0 +1,15 @@
+callout-1: Professional coaching to elevate your beauty routine
+content-1: Feeling in need of a <span>refresh</span>? Finding the beauty space <span>overwhelming</span>? Sick of buying new products that don’t work for you? I’m here to <span>help</span> you.
+callout-2: Teaching others about makeup techniques and products is deeply rewarding for me
+content-2: If you’re looking for <span>expert</span> guidance on skincare, makeup and individual needs look no further. I’ll craft a <span>customized</span> routine and assess your brushes, products, and tools to identify any gaps in your collection.
+callout-3: You’ll leave your lesson confident and prepared
+content-3: At the end of your lesson, you’ll have - A <span>personalized</span> beauty routine with application techniques <span>tailored</span> to your skin type with tips for increasing product longevity, a <span>deep</span> understanding of which tones work best with your skin type, a detailed <span>shopping</span> guide for future purchases and brush care and a <span>bespoke</span> face-chart with a full breakdown of every step of the process of applying your makeup.
+lessons: 
+  - title: Beauty Routine Refresh
+    content: Do you want to <span>improve</span> your current products? This option is ideal if you’re stuck, or need a guide on maximizing what you own. 
+    price: $250
+    time: 2hrs
+  - title: Bridal Makeup Lesson
+    content: Are you planning your wedding, or having trouble finding an artist? This detailed lesson will show you how to create your ideal bridal look. 
+    price: $350
+    time: 2.5hrs

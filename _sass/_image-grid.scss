@@ -1,0 +1,31 @@
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    .img-1,
+    .img-2,
+    .img-3 {
+        flex: 25%;
+    }
+
+    .img-1 {
+        @media screen and (max-width: $breakpoint-small) {
+            flex: 100%;
+        }
+    }
+
+    .img-2 {
+        flex: 20%;
+
+        @media screen and (max-width: $breakpoint-small) {
+            flex: 25%;
+        }
+    }
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}

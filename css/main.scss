@@ -1,17 +1,24 @@
 ---
 ---
 /* Utilities */
-@import 'normalize';
-@import 'variables';
-@import 'extends';
-@import 'type';
-/* Style */
-@import 'style';
-/* Components */
-@import 'footer';
-@import 'gallery';
-@import 'header';
-@import 'pill-menu';
-@import 'portrait';
-@import 'pricing';
-@import 'testimonials';
+@import 
+'normalize',
+'variables',
+'extends',
+'type',
+'style',
+/* Elements */
+'header',
+'image-grid',
+'menu',
+'menu-overlay',
+/* Pages */
+'home/home',
+'about/headshot',
+'bridal/bridal',
+'lessons/lessons',
+'pricing/pricing',
+'testimonials/testimonials',
+'gallery/gallery',
+'footer', 
+'testimonial';

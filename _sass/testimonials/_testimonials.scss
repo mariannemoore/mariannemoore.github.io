@@ -1,0 +1,24 @@
+.testimonials-list {
+    @extend .content-width;
+    margin-bottom: calc($measure * 3);
+
+    blockquote {
+        margin-bottom: calc($measure * 3);
+
+        &:last-of-type {
+            margin: 0;
+        }
+
+    }
+
+    .highlighted-quote {
+        color: $color-stone;
+    }
+
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+}

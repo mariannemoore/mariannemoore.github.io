@@ -1,0 +1,16 @@
+- name: home
+  url: "/"
+- name: about
+  url: "/about/"
+- name: bridal
+  url: "/bridal/"
+- name: lessons
+  url: "/lessons/"
+- name: pricing
+  url: "/pricing/"
+- name: testimonials
+  url: "/testimonials/"
+- name: gallery
+  url: "/gallery/"
+- name: contact
+  url: "/contact/"

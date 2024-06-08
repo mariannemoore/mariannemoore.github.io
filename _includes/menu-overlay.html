@@ -1,0 +1,16 @@
+<section id="menu-overlay" style="display: none;">
+    <div class="menu-container">
+        <ul>
+            {% for item in site.data.main-menu %}
+                <li class="{% if page.class == item.name %}active{% endif %}">
+                    <a href="{{ item.url }}">{{ item.name | capitalize }}</a>
+                </li>
+            {% endfor %}
+            <li><span class="divider"></span></li>
+            <li>
+                <a href="{{ site.instagramURL }}">Instagram</a>
+            </li>
+        </ul>
+    </div>
+    <span id="close-menu-overlay">Close</span>
+</section>

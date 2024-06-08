@@ -1,10 +1,14 @@
 <footer>
-    {% include instagram.html %}
-    <ul>
-        <li><a href="/" class="{% if page.class == 'home' %}active{% endif %}">Home</a></li>
-        <li>&middot;</li>
-        <li><a href="/about/" class="{% if page.class == 'about' %}active{% endif %}">About</a></li>
-    </ul>
-    <p><a href="{{ site.emailGeneralInquiry }}" title="Email Marianne Moore with your inquiry">hello@mariannemakeup.com</a></p>
-    <p class="uppercased-text">&copy; {{ site.time | date: '%Y' }} Marianne Moore</p>
+    <div class="inner">
+        <nav class="menu">
+            <ul>
+                {% for item in site.data.main-menu %}
+                    <li class="{% if page.class == item.name %}active{% endif %}">
+                        <a href="{{ item.url }}">{{ item.name | capitalize }}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <p>&copy;{{ site.time | date: '%Y' }} Marianne Moore &bull; <a href="mailto:hello@mariannemakeup.com?subject=%20General%20inquiry">hello@mariannemakeup.com</a></p>
+    </div>
 </footer>
