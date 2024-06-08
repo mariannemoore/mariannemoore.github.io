@@ -14,14 +14,6 @@ html {
   text-rendering: optimizeLegibility;
 }
 
-body {
-  background-color: $color-mushroom;
-}
-
-body.contact {
-  background: white;
-}
-
 main {
   @extend .width;
   @extend .clearfix;
@@ -136,7 +128,7 @@ section {
 }
 
 .full-width-block {
-  background-image: url("/assets/home/9C9A8410.jpg");
+  background-image: url("/assets/home/home-2.jpg");
   background-size: cover;
 
   .wrapper {
