@@ -24,16 +24,16 @@
     }
 
     .lesson-card-1 .lesson-card-inner {
-        margin-right: calc($measure / 4);
+        margin-right: 0.5em;
         
         @media screen and (max-width: $breakpoint-small) {
             margin: 0;
-            margin-bottom: calc($measure / 2);
+            margin-bottom: 1em;
         }
     }
 
     .lesson-card-2 .lesson-card-inner {
-        margin-left: calc($measure / 4);
+        margin-left: 0.5em;
 
         @media screen and (max-width: $breakpoint-small) {
             margin: 0;
