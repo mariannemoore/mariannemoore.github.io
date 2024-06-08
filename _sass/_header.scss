@@ -8,6 +8,7 @@ header {
     top: 0;
     background-color: rgba($color-background, 0.7);
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     z-index: 8;
     display: flex;
     justify-content: center;
