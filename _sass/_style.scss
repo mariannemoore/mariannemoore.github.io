@@ -134,6 +134,7 @@ section {
   .wrapper {
     background-color: rgba($color-background, 0.5);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     padding-top: 6em;
     padding-bottom: 6em;
 
