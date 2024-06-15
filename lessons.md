@@ -14,7 +14,7 @@ buttonTitle="Get in touch with Marianne"
 buttonLabel="Book a Lesson"
 %}
 
-<section class="content-width">
+<section class="solo-image content-width">
     <img src="/assets/lessons/lessons.jpg" style="width: 100%; height: auto;">
 </section>
 

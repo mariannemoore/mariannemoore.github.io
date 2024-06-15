@@ -1,0 +1,13 @@
+<section class="image-quote">
+    <div class="image">
+        <img src="{{ include.image }}">
+    </div>
+    <div class="quote">
+        {% 
+            include testimonial.html 
+            highlight=include.testimonial-highlight 
+            content=include.testimonial-content 
+            cite=include.testimonial.cite 
+        %}
+    </div>
+</section>
