@@ -13,7 +13,9 @@ content=site.data.pages.pricing.content-1
 
 {% include pricing/pricing-bridal.html %}
 
-{% include pricing/testimonial-block.html testimonial=0 %}
+<section class="solo-image content-width">
+    <img src="/assets/pricing/pricing.jpg" style="width: 100%; height: auto;">
+</section>
 
 {% include pricing/pricing-general.html %}
 
