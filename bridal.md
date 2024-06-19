@@ -32,3 +32,12 @@ buttonLabel="Inquire"
 %}
 
 {% include bridal/process.html %}
+
+{%
+include
+image-grid.html
+type="flat"
+img-1="/assets/bridal/bridal-4.jpg"
+img-2="/assets/bridal/bridal-5.jpg"
+img-3="/assets/bridal/bridal-6.jpg"
+%}

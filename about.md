@@ -25,3 +25,12 @@ buttonLabel="Inquire"
 {% include divider.html %}
 
 {% include about/testimonial-block.html testimonial=3 %}
+
+{%
+include
+image-grid.html
+type="flat"
+img-1="/assets/about/about-1.jpg"
+img-2="/assets/about/about-2.jpg"
+img-3="/assets/about/about-3.jpg"
+%}
