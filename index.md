@@ -32,3 +32,12 @@ buttonLabel="Bridal Services"
 {% include divider.html %}
 
 {% include home/testimonial-block.html testimonial=6 %}
+
+{%
+include
+image-grid.html
+type="flat"
+img-1="/assets/home/home-4.jpg"
+img-2="/assets/home/home-5.jpg"
+img-3="/assets/home/home-6.jpg"
+%}

@@ -30,12 +30,12 @@
     }
 }
 
-.inverse {
+.flat {
 
     .img-1,
     .img-2,
     .img-3 {
-        flex: 20%;
+        flex: 25%;
     }
 
     .img-1 {
@@ -43,16 +43,4 @@
             flex: 100%;
         }
     }
-
-    .img-2 {
-        flex: 25%;
-    }
-
-    .img-2,
-    .img-3 {
-        @media screen and (max-width: $breakpoint-small) {
-            flex: 25%;
-        }
-    }
-
 }
