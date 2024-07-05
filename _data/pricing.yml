@@ -25,7 +25,7 @@ additional:
   - service: Travel
     cost:
     description: |
-      If the event is outside of Victoria, a charge of $100 per hour will be added to the total cost..
+      If the event is outside of Victoria, $100 per hour of travel time will be added.
   - service: Early Morning
     cost: 
     description: |
