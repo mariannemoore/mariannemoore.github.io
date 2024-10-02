@@ -226,3 +226,16 @@ section {
   height: 2px;
   width: 4em;
 }
+
+.button-stack {
+
+
+  .button-row {
+    margin-bottom: 1em;
+
+    &:last-of-type {
+      margin: 0;
+    }
+  }
+
+}
