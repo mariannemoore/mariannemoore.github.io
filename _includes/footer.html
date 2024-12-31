@@ -9,6 +9,8 @@
                 {% endfor %}
             </ul>
         </nav>
-        <p>&copy;{{ site.time | date: '%Y' }} Marianne Moore &bull; <a href="mailto:hello@mariannemakeup.com?subject=%20General%20inquiry">hello@mariannemakeup.com</a></p>
+        {% include icons/icon-mm-glyph.html %}
+        <p>&copy;{{ site.time | date: '%Y' }} Marianne Moore</p>
+        <p><a href="mailto:hello@mariannemakeup.com?subject=%20General%20inquiry">hello@mariannemakeup.com</a></p>
     </div>
 </footer>

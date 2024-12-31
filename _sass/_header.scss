@@ -1,5 +1,5 @@
 header {
-    height: 6em;
+    height: 8em;
     text-align: center;
     position: fixed;
     left: 0;
@@ -14,15 +14,9 @@ header {
         fill: $color-ink;
     }
 
-    h1 {
-        margin: 0;
-        font-size: 2em;
-        line-height: 3em;
-
-        @media screen and (max-width: $breakpoint-small) {
-            font-size: 1em;
-            line-height: 6em;
-        }
+    svg#mm-logo {
+        margin-top: 1em;
+        height: 6em;
     }
 
     a {
@@ -35,7 +29,7 @@ header {
         justify-content: center;
         align-items: center;
         width: 6em;
-        height: 6em;
+        height: 8em;
         left: 0;
         top: 0;
         cursor: pointer;
@@ -47,7 +41,7 @@ header {
         justify-content: center;
         align-items: center;
         width: 6em;
-        height: 6em;
+        height: 8em;
         right: 0;
         top: 0;
         cursor: pointer;
