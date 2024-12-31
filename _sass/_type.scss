@@ -28,10 +28,6 @@ a {
 
 .standout-text {
   font-family: $font-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: italic;
-  font-variation-settings: "wdth" 100;
   font-size: 3em;
   line-height: 1.25em;
 
@@ -43,10 +39,6 @@ a {
 
 .standout-text-smaller {
   font-family: $font-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: italic;
-  font-variation-settings: "wdth" 100;
   font-size: 2.5em;
   line-height: 1em;
 
@@ -57,10 +49,6 @@ a {
 
 .standout-text-smallest {
   font-family: $font-serif;
-  font-optical-sizing: auto;
-  font-weight: 300;
-  font-style: italic;
-  font-variation-settings: "wdth" 100;
   font-size: 1.75em;
   line-height: 1em;
 
