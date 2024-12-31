@@ -2,6 +2,10 @@
     @extend .content-width;
     margin-bottom: 6em;
 
+    h2 {
+        margin-bottom: $measure;
+    }
+
     .service {
         margin-bottom: 1em;
         padding-bottom: 1em;
