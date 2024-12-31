@@ -1,10 +1,6 @@
 <section class="pricing-table bridal-pricing">
     <h2>Bridal Pricing</h2>
 
-    <div class="service-footer">
-        <p>All prices include false lashes (if required) and tax.</p>
-    </div>
-
     {% for pricing in site.data.pricing.bridal %}
     <div class="service{% if forloop.last %} last-item{% endif %}">
         <div class="service-details">
