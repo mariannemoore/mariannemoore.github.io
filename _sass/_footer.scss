@@ -7,9 +7,13 @@ footer {
       padding-bottom: 4em;
     }
 
-    .menu {
-      margin-bottom: $measure;
+    svg#mm-logo-glyph {
+      width: 4em;
+      fill: $color-ink;
+      margin: 2em 0;
+    }
 
+    .menu {
       a {
         display: inline-block;
         padding-bottom: 0.5em;
