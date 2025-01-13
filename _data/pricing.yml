@@ -16,10 +16,10 @@ general:
     cost: $175
     description: 
   - service: Makeup Lesson (2hrs)
-    cost: $300
+    cost: $275
     description:
   - service: Bridal Makeup Lesson (2.5hrs)
-    cost: $350
+    cost: $300
     description:
 additional:
   - service: Travel
