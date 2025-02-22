@@ -25,8 +25,12 @@ additional:
   - service: Travel
     cost:
     description: |
-      If the event is outside of Victoria, $100 per hour of travel time will be added.
+      If the event is outside of Victoria, <strong>$100 per hour</strong> of travel time will be added.
   - service: Early Morning
     cost: 
     description: |
       If the call time is before 8am an additional fee of <strong>$150</strong> will be applied. 
+  - service: Trial Waiver
+    cost: 
+    description: |
+      To provide the best service and ensure your wedding day runs seamlessly, I recommend a bridal trial. If you decide to opt out of your bridal makeup trial, an additional <strong>$100</strong> fee will be applied to accommodate the additional time and customization required on the wedding day.
