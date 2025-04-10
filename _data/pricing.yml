@@ -11,6 +11,13 @@ bridal:
   - service: Bridal Party Makeup
     cost: $175
     description: $185 (2026 Pricing)
+bride-only:
+  - service: Bride-only Makeup Trial
+    cost: $175
+    description: $200 (2026 Pricing)
+  - service: Bride-only Makeup
+    cost: $425
+    description: $450 (2026 Pricing)
 general:
   - service: Event / Photo Shoot Makeup
     cost: $175
