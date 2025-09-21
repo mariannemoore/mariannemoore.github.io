@@ -1,0 +1,26 @@
+<section class="full-width-block lessons">
+    <div class="wrapper">
+        <div class="content-width">
+            <h2>Available Coaching</h2>
+            <div class="full-width-block-content">
+                {% for coaching in site.data.pages.coaching.coaching %}
+                <div class="lesson-card-{{ forloop.index }}">
+                    <div class="lesson-card-inner">
+                        <h3>{{ coaching.title }}</h3>
+                        <p class="lesson-price">{{ coaching.price }}</p>
+                        <p class="lesson-time">{{ coaching.time }}</p>
+                        <p>{{ coaching.content }}</p>
+                        {% 
+                            include button.html 
+                            href=coaching.url
+                            title="Book a one on one coaching session with Marianne" 
+                            label="Book Now" 
+                            type="secondary"
+                        %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</section>

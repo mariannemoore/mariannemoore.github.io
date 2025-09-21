@@ -6,6 +6,8 @@
   url: "/bridal/"
 - name: lessons
   url: "/lessons/"
+- name: artist coaching
+  url: "/coaching/"
 - name: pricing
   url: "/pricing/"
 - name: testimonials
