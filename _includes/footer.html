@@ -4,7 +4,7 @@
             <ul>
                 {% for item in site.data.main-menu %}
                     <li class="{% if page.class == item.name %}active{% endif %}">
-                        <a href="{{ item.url }}">{{ item.name | capitalize }}</a>
+                        <a href="{{ item.url }}">{{ item.name }}</a>
                     </li>
                 {% endfor %}
             </ul>
