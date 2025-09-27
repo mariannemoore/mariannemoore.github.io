@@ -26,7 +26,7 @@ content=site.data.pages.lessons.content-2
 
 {% include divider.html %}
 
-{% include lessons/testimonial-block.html testimonial=1 %}
+{% include lessons/testimonial-block.html testimonial=0 %}
 
 {% include lessons/lesson-options.html %}
 
