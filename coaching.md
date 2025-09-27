@@ -11,7 +11,7 @@ h1=site.data.pages.coaching.callout-1
 content=site.data.pages.coaching.content-1
 buttonURL="/contact/"
 buttonTitle="Get in touch with Marianne"
-buttonLabel="Book a Lesson"
+buttonLabel="Book Coaching"
 %}
 
 <section class="solo-image content-width">
