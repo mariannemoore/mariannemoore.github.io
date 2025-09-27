@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Coaching
+title: Artist Coaching
 class: coaching
 ---
 

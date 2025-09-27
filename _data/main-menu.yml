@@ -1,18 +1,18 @@
-- name: home
+- name: Home
   url: "/"
-- name: about
+- name: About
   url: "/about/"
-- name: bridal
+- name: Bridal
   url: "/bridal/"
-- name: lessons
+- name: Lessons
   url: "/lessons/"
-- name: artist coaching
+- name: Artist Coaching
   url: "/coaching/"
-- name: pricing
+- name: Pricing
   url: "/pricing/"
-- name: testimonials
+- name: Testimonials
   url: "/testimonials/"
-- name: gallery
+- name: Gallery
   url: "/gallery/"
-- name: contact
+- name: Contact
   url: "/contact/"
