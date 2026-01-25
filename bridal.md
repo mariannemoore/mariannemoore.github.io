@@ -20,6 +20,9 @@ image-grid.html
 img-1="/assets/bridal/bridal-1.jpg"
 img-2="/assets/bridal/bridal-2.jpg"
 img-3="/assets/bridal/bridal-3.jpg"
+alt-1="Bridal makeup by Marianne Moore"
+alt-2="Wedding day makeup look"
+alt-3="Bride makeup application Victoria BC"
 %}
 
 {%
@@ -40,4 +43,7 @@ type="flat"
 img-1="/assets/bridal/bridal-4.jpg"
 img-2="/assets/bridal/bridal-5.jpg"
 img-3="/assets/bridal/bridal-6.jpg"
+alt-1="Bridal party makeup"
+alt-2="Wedding makeup close-up"
+alt-3="Luxury bridal makeup Victoria BC"
 %}

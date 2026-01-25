@@ -11,20 +11,46 @@ layout: compress
         {% else %}
         <title>Marianne Moore &middot; Makeup Artist Victoria BC &middot; {{ page.title }}</title>
         {% endif %}
+        <!-- Canonical URL -->
+        <link rel="canonical" href="{{ page.url | prepend: site.url }}">
         <!-- Primary Meta Tags -->
         <meta name="title" content="Marianne Moore · Makeup Artist Victoria BC" />
         <meta name="description" content="Marianne Moore is a luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC" />
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="http://mariannemakeup.com/" />
+        <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
         <meta property="og:title" content="Marianne Moore · Makeup Artist Victoria BC" />
         <meta property="og:description" content="Marianne Moore is a luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC" />
-        <meta property="og:image" content="http://mariannemakeup.com/assets/meta.png" />
+        <meta property="og:image" content="https://mariannemakeup.com/assets/meta.png" />
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="http://mariannemakeup.com/" />
+        <meta property="twitter:url" content="{{ page.url | prepend: site.url }}" />
         <meta property="twitter:title" content="Marianne Moore · Makeup Artist Victoria BC" />
         <meta property="twitter:description" content="Marianne Moore is a luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC" />
+        <meta property="twitter:image" content="https://mariannemakeup.com/assets/meta.png" />
+        <!-- Structured Data -->
+        <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Marianne Moore Makeup",
+            "description": "Luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC",
+            "url": "https://mariannemakeup.com",
+            "image": "https://mariannemakeup.com/assets/meta.png",
+            "email": "hello@mariannemakeup.com",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Victoria",
+                "addressRegion": "BC",
+                "addressCountry": "CA"
+            },
+            "sameAs": [
+                "https://instagram.com/mariannemoore_makeup"
+            ],
+            "priceRange": "$$",
+            "serviceType": ["Bridal Makeup", "Editorial Makeup", "Makeup Lessons", "Artist Coaching"]
+        }
+        </script>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg">
         <link color="#888" href="/favicon.svg" rel="mask-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">

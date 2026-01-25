@@ -15,7 +15,7 @@ buttonLabel="Book a Lesson"
 %}
 
 <section class="solo-image content-width">
-    <img src="/assets/lessons/lessons.jpg" style="width: 100%; height: auto;">
+    <img src="/assets/lessons/lessons.jpg" alt="Makeup lessons with Marianne Moore in Victoria BC" style="width: 100%; height: auto;">
 </section>
 
 {%
