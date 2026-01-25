@@ -6,27 +6,30 @@ layout: compress
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
+        {% assign default_description = "Marianne Moore is a luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC" %}
+        {% assign page_description = page.description | default: default_description %}
         {% if page.class == "home" %}
-        <title>Marianne Moore &middot; Makeup Artist Victoria BC</title>
+        {% assign page_title = "Marianne Moore · Makeup Artist Victoria BC" %}
         {% else %}
-        <title>Marianne Moore &middot; Makeup Artist Victoria BC &middot; {{ page.title }}</title>
+        {% assign page_title = "Marianne Moore · Makeup Artist Victoria BC · " | append: page.title %}
         {% endif %}
+        <title>{{ page_title }}</title>
         <!-- Canonical URL -->
         <link rel="canonical" href="{{ page.url | prepend: site.url }}">
         <!-- Primary Meta Tags -->
-        <meta name="title" content="Marianne Moore · Makeup Artist Victoria BC" />
-        <meta name="description" content="Marianne Moore is a luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC" />
+        <meta name="title" content="{{ page_title }}" />
+        <meta name="description" content="{{ page_description }}" />
         <!-- Open Graph / Facebook -->
         <meta property="og:type" content="website" />
         <meta property="og:url" content="{{ page.url | prepend: site.url }}" />
-        <meta property="og:title" content="Marianne Moore · Makeup Artist Victoria BC" />
-        <meta property="og:description" content="Marianne Moore is a luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC" />
+        <meta property="og:title" content="{{ page_title }}" />
+        <meta property="og:description" content="{{ page_description }}" />
         <meta property="og:image" content="https://mariannemakeup.com/assets/meta.png" />
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content="{{ page.url | prepend: site.url }}" />
-        <meta property="twitter:title" content="Marianne Moore · Makeup Artist Victoria BC" />
-        <meta property="twitter:description" content="Marianne Moore is a luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC" />
+        <meta property="twitter:title" content="{{ page_title }}" />
+        <meta property="twitter:description" content="{{ page_description }}" />
         <meta property="twitter:image" content="https://mariannemakeup.com/assets/meta.png" />
         <!-- Structured Data -->
         <script type="application/ld+json">

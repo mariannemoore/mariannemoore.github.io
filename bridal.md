@@ -2,6 +2,7 @@
 layout: default
 title: Bridal
 class: bridal
+description: "Natural, effortless bridal makeup in Victoria BC. Personalized consultations, trials, and luxury products for a flawless wedding day look by Marianne Moore."
 ---
 
 {%

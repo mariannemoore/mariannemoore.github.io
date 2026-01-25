@@ -2,6 +2,7 @@
 layout: default
 title: Contact
 class: contact
+description: "Get in touch with Marianne Moore for bridal makeup inquiries, lesson bookings, and artist coaching in Victoria BC."
 ---
 
 {%

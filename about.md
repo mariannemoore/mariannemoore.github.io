@@ -2,6 +2,7 @@
 layout: default
 title: About
 class: about
+description: "Meet Marianne Moore, a professional bridal makeup artist with over 17 years of global experience, including MAC Cosmetics and London Fashion Week. Based in Victoria BC."
 ---
 
 {%

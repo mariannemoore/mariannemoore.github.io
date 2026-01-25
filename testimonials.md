@@ -2,6 +2,7 @@
 layout: default
 title: Testimonials
 class: testimonials
+description: "Read client reviews and testimonials for Marianne Moore, luxury makeup artist in Victoria BC. See what brides and clients say about their experience."
 ---
 
 {%

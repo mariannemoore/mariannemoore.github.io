@@ -2,6 +2,7 @@
 layout: default
 title: Bridal Prep Guide
 class: bridal-prep
+description: "Bridal preparation guide by Marianne Moore. Tips on skincare, hydration, spray tans, scheduling, and touch-ups for your wedding day."
 ---
 
 _We just need a nice intro here I guess._

@@ -2,6 +2,7 @@
 layout: default
 title: Artist Coaching
 class: coaching
+description: "Makeup artist coaching and mentorship with Marianne Moore. 1-on-1 sessions and strategy calls to refine your craft, grow your business, and build your portfolio."
 ---
 
 {%
@@ -15,7 +16,7 @@ buttonLabel="Book Coaching"
 %}
 
 <section class="solo-image content-width">
-    <img src="/assets/lessons/lessons.jpg" alt="Makeup artist coaching with Marianne Moore" style="width: 100%; height: auto;">
+    <img src="/assets/lessons/lessons.jpg" alt="Makeup artist coaching with Marianne Moore" loading="lazy" style="width: 100%; height: auto;">
 </section>
 
 {%

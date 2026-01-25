@@ -2,6 +2,7 @@
 layout: default
 title: Lessons
 class: lessons
+description: "Professional makeup lessons in Victoria BC with Marianne Moore. Personalized beauty routine refreshes and bridal makeup lessons tailored to your skin type and style."
 ---
 
 {%
@@ -15,7 +16,7 @@ buttonLabel="Book a Lesson"
 %}
 
 <section class="solo-image content-width">
-    <img src="/assets/lessons/lessons.jpg" alt="Makeup lessons with Marianne Moore in Victoria BC" style="width: 100%; height: auto;">
+    <img src="/assets/lessons/lessons.jpg" alt="Makeup lessons with Marianne Moore in Victoria BC" loading="lazy" style="width: 100%; height: auto;">
 </section>
 
 {%
