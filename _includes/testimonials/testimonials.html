@@ -14,4 +14,38 @@
     {% endfor %}
 </section>
 
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Marianne Moore Makeup",
+    "url": "https://mariannemakeup.com",
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "{{ site.data.testimonials | size }}",
+        "bestRating": "5",
+        "worstRating": "1"
+    },
+    "review": [
+        {% for testimonial in site.data.testimonials %}
+        {
+            "@type": "Review",
+            "author": {
+                "@type": "Person",
+                "name": "{{ testimonial.cite | split: ' (' | first }}"
+            },
+            "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+            },
+            "reviewBody": "{{ testimonial.testimonial | strip_newlines | escape }}"
+        }{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+    ]
+}
+</script>
+
 

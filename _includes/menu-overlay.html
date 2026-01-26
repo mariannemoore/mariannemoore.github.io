@@ -1,4 +1,4 @@
-<section id="menu-overlay" style="display: none;">
+<section id="menu-overlay" style="display: none;" role="dialog" aria-label="Navigation menu">
     <div class="menu-container">
         <ul>
             {% for item in site.data.main-menu %}
@@ -8,7 +8,7 @@
             {% endfor %}
             <li><span class="divider"></span></li>
             <li>
-                <a href="{{ site.instagramURL }}">Instagram</a>
+                <a href="{{ site.instagramURL }}" rel="noopener noreferrer" target="_blank">Instagram</a>
             </li>
         </ul>
     </div>
