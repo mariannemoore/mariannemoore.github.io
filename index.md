@@ -2,7 +2,7 @@
 layout: default
 title: Home
 class: home
-description: "Marianne Moore is a luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC. Book your consultation today."
+description: "Marianne Moore is a luxury makeup artist specializing in bridal makeup that is tailored to the modern bride. She also offers makeup lessons and artist coaching."
 ---
 
 {%
