@@ -12,7 +12,17 @@ h1=site.data.pages.about.callout-1
 content=site.data.pages.about.content-1
 %}
 
-{% include about/headshot.html %}
+{%
+include
+image-grid.html
+type="flat"
+img-1="/assets/about/about-1.jpg"
+img-2="/assets/about/about-2.jpg"
+img-3="/assets/about/about-3.jpg"
+alt-1="Marianne Moore, bridal makeup artist"
+alt-2="Marianne Moore applying makeup"
+alt-3="Marianne Moore, Victoria BC makeup artist"
+%}
 
 {%
 include content-block.html
