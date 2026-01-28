@@ -36,23 +36,92 @@ layout: compress
         <script type="application/ld+json">
         {
             "@context": "https://schema.org",
-            "@type": "LocalBusiness",
-            "name": "Marianne Moore Makeup",
-            "description": "Luxury makeup artist specializing in bridal and editorial makeup based in Victoria BC",
-            "url": "https://mariannemakeup.com",
-            "image": "https://mariannemakeup.com/assets/meta.png",
-            "email": "hello@mariannemakeup.com",
-            "address": {
-                "@type": "PostalAddress",
-                "addressLocality": "Victoria",
-                "addressRegion": "BC",
-                "addressCountry": "CA"
-            },
-            "sameAs": [
-                "https://instagram.com/mariannemoore_makeup"
-            ],
-            "priceRange": "$$",
-            "serviceType": ["Bridal Makeup", "Editorial Makeup", "Makeup Lessons", "Artist Coaching"]
+            "@graph": [
+                {
+                    "@type": "LocalBusiness",
+                    "@id": "https://mariannemakeup.com/#business",
+                    "name": "Marianne Moore Makeup",
+                    "description": "Luxury makeup artist specializing in bridal makeup tailored to the modern bride. Also offering makeup lessons and artist coaching in Victoria BC.",
+                    "url": "https://mariannemakeup.com",
+                    "image": "https://mariannemakeup.com/assets/meta.png",
+                    "email": "hello@mariannemakeup.com",
+                    "address": {
+                        "@type": "PostalAddress",
+                        "addressLocality": "Victoria",
+                        "addressRegion": "BC",
+                        "addressCountry": "CA"
+                    },
+                    "sameAs": [
+                        "https://instagram.com/mariannemoore_makeup"
+                    ],
+                    "priceRange": "$$",
+                    "founder": {
+                        "@id": "https://mariannemakeup.com/#person"
+                    },
+                    "hasOfferCatalog": {
+                        "@type": "OfferCatalog",
+                        "name": "Makeup Services",
+                        "itemListElement": [
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Bridal Makeup",
+                                    "description": "Natural, effortless bridal makeup with personalized consultations and trials for a flawless wedding day look."
+                                }
+                            },
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Makeup Lessons",
+                                    "description": "Personalized makeup lessons tailored to your skin type and style, including beauty routine refreshes and bridal makeup instruction."
+                                }
+                            },
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Artist Coaching",
+                                    "description": "1-on-1 mentorship sessions and strategy calls to help makeup artists refine their craft and grow their business."
+                                }
+                            },
+                            {
+                                "@type": "Offer",
+                                "itemOffered": {
+                                    "@type": "Service",
+                                    "name": "Personal Shopping",
+                                    "description": "Professional guidance and colour matching at Sephora to find the perfect makeup and skincare products."
+                                }
+                            }
+                        ]
+                    }
+                },
+                {
+                    "@type": "Person",
+                    "@id": "https://mariannemakeup.com/#person",
+                    "name": "Marianne Moore",
+                    "jobTitle": "Makeup Artist",
+                    "description": "Professional bridal makeup artist with over 17 years of global experience, including MAC Cosmetics and London Fashion Week.",
+                    "url": "https://mariannemakeup.com/about/",
+                    "image": "https://mariannemakeup.com/assets/meta.png",
+                    "sameAs": [
+                        "https://instagram.com/mariannemoore_makeup"
+                    ],
+                    "worksFor": {
+                        "@id": "https://mariannemakeup.com/#business"
+                    }
+                },
+                {
+                    "@type": "WebSite",
+                    "@id": "https://mariannemakeup.com/#website",
+                    "url": "https://mariannemakeup.com",
+                    "name": "Marianne Moore Makeup",
+                    "publisher": {
+                        "@id": "https://mariannemakeup.com/#person"
+                    }
+                }
+            ]
         }
         </script>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg">
