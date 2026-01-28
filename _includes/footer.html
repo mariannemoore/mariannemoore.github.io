@@ -10,7 +10,16 @@
             </ul>
         </nav>
         {% include icons/icon-mm-glyph.html %}
-        <p>&copy;{{ site.time | date: '%Y' }} Marianne Moore</p>
-        <p><a href="mailto:hello@mariannemakeup.com?subject=%20General%20inquiry">hello@mariannemakeup.com</a></p>
+        <div class="footer-bottom" style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1em;">
+            <div class="footer-left">
+                <p>&copy;{{ site.time | date: '%Y' }} Marianne Moore</p>
+                <p><a href="mailto:hello@mariannemakeup.com?subject=%20General%20inquiry">hello@mariannemakeup.com</a></p>
+            </div>
+            {% unless page.class == "gallery" %}
+            <div class="footer-right" style="text-align: right;">
+                <p style="margin: 0; font-size: 0.875em; color: #685F54;">Photography by <a href="https://carissamariephotography.ca/" target="_blank" rel="noopener">Carissa Marie Photography</a></p>
+            </div>
+            {% endunless %}
+        </div>
     </div>
 </footer>
