@@ -16,7 +16,7 @@ buttonLabel="Book Coaching"
 %}
 
 <section class="solo-image content-width">
-    <img src="/assets/lessons/lessons.jpg" alt="Makeup artist coaching with Marianne Moore" loading="lazy" style="width: 100%; height: auto;">
+    <img src="/assets/lessons/devon-coach.png" alt="Makeup artist coaching with Marianne Moore" loading="lazy" style="width: 100%; height: auto;">
 </section>
 
 {%
