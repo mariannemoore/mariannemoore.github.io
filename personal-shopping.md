@@ -5,6 +5,39 @@ class: personal-shopping
 description: "Personal shopping with Marianne Moore. Get professional guidance and colour matching at Sephora to find the perfect makeup and skincare products for you."
 ---
 
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "How much does a personal shopping session cost?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A personal shopping session with Marianne Moore is $200 CAD for 90 minutes. You'll receive professional guidance on choosing every product you need, with colour matching done in store to ensure perfect results."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is included in a personal shopping session?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Marianne will guide you through every product choice, from skincare through to brushes and tools, discovering the correct makeup textures and colour matches as you go. You'll walk away with curated products selected specifically for you and your lifestyle."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where does the personal shopping session take place?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Personal shopping sessions take place at your nearest Sephora location, where Marianne will provide personalized guidance and colour matching in store."
+            }
+        }
+    ]
+}
+</script>
+
 {%
 include content-block.html
 subheading=page.title

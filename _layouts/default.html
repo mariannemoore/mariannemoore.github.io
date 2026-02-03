@@ -2,7 +2,7 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="en-GB">
+<html lang="en-CA">
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
@@ -32,6 +32,8 @@ layout: compress
         <meta property="twitter:title" content="{{ page_title }}" />
         <meta property="twitter:description" content="{{ page_description }}" />
         <meta property="twitter:image" content="https://mariannemakeup.com/assets/meta.png" />
+        <meta property="og:locale" content="en_CA" />
+        <meta name="theme-color" content="#F7F0E5">
         <!-- Structured Data -->
         <script type="application/ld+json">
         {
@@ -55,6 +57,14 @@ layout: compress
                         "https://instagram.com/mariannemoore_makeup"
                     ],
                     "priceRange": "$$",
+                    "areaServed": {
+                        "@type": "City",
+                        "name": "Victoria",
+                        "containedInPlace": {
+                            "@type": "AdministrativeArea",
+                            "name": "British Columbia"
+                        }
+                    },
                     "founder": {
                         "@id": "https://mariannemakeup.com/#person"
                     },
@@ -64,6 +74,8 @@ layout: compress
                         "itemListElement": [
                             {
                                 "@type": "Offer",
+                                "price": "450",
+                                "priceCurrency": "CAD",
                                 "itemOffered": {
                                     "@type": "Service",
                                     "name": "Bridal Makeup",
@@ -72,6 +84,8 @@ layout: compress
                             },
                             {
                                 "@type": "Offer",
+                                "price": "350",
+                                "priceCurrency": "CAD",
                                 "itemOffered": {
                                     "@type": "Service",
                                     "name": "Makeup Lessons",
@@ -80,6 +94,8 @@ layout: compress
                             },
                             {
                                 "@type": "Offer",
+                                "price": "600",
+                                "priceCurrency": "CAD",
                                 "itemOffered": {
                                     "@type": "Service",
                                     "name": "Artist Coaching",
@@ -88,6 +104,8 @@ layout: compress
                             },
                             {
                                 "@type": "Offer",
+                                "price": "220",
+                                "priceCurrency": "CAD",
                                 "itemOffered": {
                                     "@type": "Service",
                                     "name": "Personal Shopping",
@@ -152,84 +170,34 @@ layout: compress
             "aggregateRating": {
                 "@type": "AggregateRating",
                 "ratingValue": "5",
-                "reviewCount": "5",
+                "reviewCount": "{{ site.data.testimonials | size }}",
                 "bestRating": "5",
                 "worstRating": "1"
             },
-            "review": [
+            "review": [{% for review in site.data.testimonials %}
                 {
                     "@type": "Review",
                     "author": {
                         "@type": "Person",
-                        "name": "Emily P."
+                        "name": "{{ review.cite | split: ' (' | first }}"
                     },
                     "reviewRating": {
                         "@type": "Rating",
                         "ratingValue": "5",
                         "bestRating": "5"
                     },
-                    "reviewBody": "I went away from our session feeling so confident, not just in how my make up looked, my newly practiced skills in applying it, and the quality of the products you recommended, but maybe most importantly, how to care for my skin as well."
-                },
-                {
-                    "@type": "Review",
-                    "author": {
-                        "@type": "Person",
-                        "name": "Lindsay"
-                    },
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5",
-                        "bestRating": "5"
-                    },
-                    "reviewBody": "My tutorial with Marianne was fantastic! She's not only talented, she's fun and engaging, and listens and adapts her recommendations and techniques to what you're looking for."
-                },
-                {
-                    "@type": "Review",
-                    "author": {
-                        "@type": "Person",
-                        "name": "Liz"
-                    },
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5",
-                        "bestRating": "5"
-                    },
-                    "reviewBody": "Marianne is a brilliant make-up artist. She made me feel and look beautiful on my wedding day. Her calm, warm and authentic attitude and engaging personality helped me and my maid of honour feel comfortable throughout."
-                },
-                {
-                    "@type": "Review",
-                    "author": {
-                        "@type": "Person",
-                        "name": "Jessica"
-                    },
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5",
-                        "bestRating": "5"
-                    },
-                    "reviewBody": "Marianne was so amazing to work with! She makes you feel comfortable right from the start, and made my wedding vision come to life. She is able to make you feel beautiful without putting on too much makeup."
-                },
-                {
-                    "@type": "Review",
-                    "author": {
-                        "@type": "Person",
-                        "name": "Tram"
-                    },
-                    "reviewRating": {
-                        "@type": "Rating",
-                        "ratingValue": "5",
-                        "bestRating": "5"
-                    },
-                    "reviewBody": "I had the absolute pleasure of having Marianne as my makeup artist on my wedding day, and I can't recommend her enough. From the moment she arrived, she brought such a calming and comforting presence."
-                }
+                    "reviewBody": {{ review.testimonial | strip | jsonify }}
+                }{% unless forloop.last %},{% endunless %}{% endfor %}
             ]
         }
         </script>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg">
         <link color="#888" href="/favicon.svg" rel="mask-icon">
+        <link rel="preload" href="/assets/fonts/AngieSansStd-Italic.woff2" as="font" type="font/woff2" crossorigin>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Figtree:ital@0;1&display=swap" rel="stylesheet">
+        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Figtree:ital@0;1&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link href="https://fonts.googleapis.com/css2?family=Figtree:ital@0;1&display=swap" rel="stylesheet"></noscript>
         {% assign cacheBust = site.time | date:'?v=%s' %}
         <link rel="stylesheet" href="{{ "/css/main.css" | append: cacheBust }}">
     </head>
