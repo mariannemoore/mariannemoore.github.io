@@ -5,6 +5,39 @@ class: lessons
 description: "Professional makeup lessons in Victoria BC with Marianne Moore. Personalized beauty routine refreshes and bridal makeup lessons tailored to your skin type and style."
 ---
 
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "How much do makeup lessons cost?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Beauty Routine Refresh lesson is $350 CAD for 2 hours. A Bridal Makeup Lesson is $400 CAD for 2.5 hours. Both include personalized instruction tailored to your skin type and style."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is included in a makeup lesson?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "You'll receive a customized beauty routine, personalized application techniques, product recommendations, tips for increasing product longevity, and guidance on which tones work best with your skin type. You're welcome to video your session for future reference."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Who are makeup lessons for?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Lessons are for anyone looking to refresh their beauty routine, learn new techniques, or get expert guidance on skincare and makeup. The Bridal Makeup Lesson is specifically designed for brides who want to do their own wedding makeup."
+            }
+        }
+    ]
+}
+</script>
+
 {%
 include content-block.html
 subheading=page.title
@@ -16,7 +49,7 @@ buttonLabel="Book a Lesson"
 %}
 
 <section class="solo-image content-width">
-    <img src="/assets/lessons/lessons.jpg" alt="Makeup lessons with Marianne Moore in Victoria BC" loading="lazy" style="width: 100%; height: auto;">
+    <img src="/assets/lessons/lessons.jpg" alt="Makeup lessons with Marianne Moore in Victoria BC" loading="lazy" width="1024" height="848" style="width: 100%; height: auto;">
 </section>
 
 {%

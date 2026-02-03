@@ -1,25 +1,25 @@
 {% if include.type == "flat" %}
 <section class="image-grid 3-column flat">
     <div class="img-1">
-        <img src="{{ include.img-1 }}" alt="{{ include.alt-1 | default: 'Makeup by Marianne Moore' }}" loading="lazy">
+        <img src="{{ include.img-1 }}" alt="{{ include.alt-1 | default: 'Makeup by Marianne Moore' }}" loading="lazy" width="{{ include.width | default: 1024 }}" height="{{ include.height | default: 1476 }}">
     </div>
     <div class="img-2">
-        <img src="{{ include.img-2 }}" alt="{{ include.alt-2 | default: 'Makeup by Marianne Moore' }}" loading="lazy">
+        <img src="{{ include.img-2 }}" alt="{{ include.alt-2 | default: 'Makeup by Marianne Moore' }}" loading="lazy" width="{{ include.width | default: 1024 }}" height="{{ include.height | default: 1476 }}">
     </div>
     <div class="img-3">
-        <img src="{{ include.img-3 }}" alt="{{ include.alt-3 | default: 'Makeup by Marianne Moore' }}" loading="lazy">
+        <img src="{{ include.img-3 }}" alt="{{ include.alt-3 | default: 'Makeup by Marianne Moore' }}" loading="lazy" width="{{ include.width | default: 1024 }}" height="{{ include.height | default: 1476 }}">
     </div>
 </section>
 {% else %}
 <section class="image-grid 3-column">
     <div class="img-1">
-        <img src="{{ include.img-1 }}" alt="{{ include.alt-1 | default: 'Makeup by Marianne Moore' }}" loading="lazy">
+        <img src="{{ include.img-1 }}" alt="{{ include.alt-1 | default: 'Makeup by Marianne Moore' }}" loading="lazy" width="{{ include.width | default: 1024 }}" height="{{ include.height | default: 1476 }}">
     </div>
     <div class="img-2">
-        <img src="{{ include.img-2 }}" alt="{{ include.alt-2 | default: 'Makeup by Marianne Moore' }}" loading="lazy">
+        <img src="{{ include.img-2 }}" alt="{{ include.alt-2 | default: 'Makeup by Marianne Moore' }}" loading="lazy" width="{{ include.width | default: 1024 }}" height="{{ include.height | default: 1476 }}">
     </div>
     <div class="img-3">
-        <img src="{{ include.img-3 }}" alt="{{ include.alt-3 | default: 'Makeup by Marianne Moore' }}" loading="lazy">
+        <img src="{{ include.img-3 }}" alt="{{ include.alt-3 | default: 'Makeup by Marianne Moore' }}" loading="lazy" width="{{ include.width | default: 1024 }}" height="{{ include.height | default: 1476 }}">
     </div>
 </section>
 {% endif %}

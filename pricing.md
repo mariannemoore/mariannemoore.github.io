@@ -23,5 +23,5 @@ content=site.data.pages.pricing.content-1
 {% include pricing/testimonial-block.html testimonial=2 %}
 
 <section class="solo-image content-width">
-    <img src="/assets/pricing/makeup.jpg" alt="Professional makeup services and pricing by Marianne Moore" loading="lazy" style="width: 100%; height: auto;">
+    <img src="/assets/pricing/makeup.jpg" alt="Professional makeup services and pricing by Marianne Moore" loading="lazy" width="1600" height="1067" style="width: 100%; height: auto;">
 </section>

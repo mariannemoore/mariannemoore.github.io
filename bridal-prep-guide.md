@@ -5,7 +5,7 @@ class: bridal-prep
 description: "Bridal preparation guide by Marianne Moore. Tips on skincare, hydration, spray tans, scheduling, and touch-ups for your wedding day."
 ---
 
-_We just need a nice intro here I guess._
+Congratulations on your upcoming wedding! Here's everything you need to know to prepare for your [bridal makeup](/bridal/) experience. If you haven't already, take a look at my [bridal services](/bridal/) and [pricing](/pricing/) to get started.
 
 #### Prioritize Hydration
 
@@ -25,4 +25,8 @@ Creating a schedule for hair and makeup on your wedding day is a good idea. Ensu
 
 #### Touch-ups
 
-Touch-ups are something that you and your bridal party might have to do at some point during the event. While I use long-wearing professional products for all my makeup applications, talking, eating, heat and sweating can impact the wear of makeup, especially lip products. I provide a touch-up kit for the bride, and it’s a good idea for a bridesmaid to have a sheer compact powder for shine reduction and a nude lipstick or gloss on hand for anyone who might need to freshen up.
+Touch-ups are something that you and your bridal party might have to do at some point during the event. While I use long-wearing professional products for all my makeup applications, talking, eating, heat and sweating can impact the wear of makeup, especially lip products. I provide a touch-up kit for the bride, and it's a good idea for a bridesmaid to have a sheer compact powder for shine reduction and a nude lipstick or gloss on hand for anyone who might need to freshen up.
+
+---
+
+Ready to book? [Get in touch](/contact/) or learn more about my [bridal services](/bridal/).

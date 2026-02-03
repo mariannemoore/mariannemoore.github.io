@@ -22,6 +22,8 @@ img-3="/assets/home/home-3.jpg"
 alt-1="Bridal makeup by Marianne Moore"
 alt-2="Editorial makeup look by Marianne Moore"
 alt-3="Makeup artistry by Marianne Moore, Victoria BC"
+width=1067
+height=1600
 %}
 
 {%
@@ -47,4 +49,6 @@ img-3="/assets/home/home-6.jpg"
 alt-1="Luxury makeup application by Marianne Moore"
 alt-2="Natural bridal makeup look"
 alt-3="Professional makeup artist Victoria BC"
+width=1067
+height=1600
 %}
