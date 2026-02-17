@@ -22,6 +22,9 @@ general:
   - service: Bridal Makeup Lesson (2.5hrs)
     cost: $400
     description:
+  - service: Personal Shopping
+    cost: $200
+    description:
   - service: 1-1 Artist Coaching Session
     cost: $600
     description:
