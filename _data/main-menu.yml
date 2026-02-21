@@ -16,5 +16,7 @@
   url: "/testimonials/"
 - name: Gallery
   url: "/gallery/"
+- name: FAQ
+  url: "/faq/"
 - name: Contact
   url: "/contact/"
