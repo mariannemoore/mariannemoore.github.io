@@ -73,17 +73,53 @@ section {
 }
 
 
-.instagram {
+.instagram,
+.youtube {
   width: 24px;
 
-  #instagram {
+  svg {
     fill: $color-ink;
+    transition: fill 0.2s;
   }
 
-  &:hover #instagram {
+  &:hover svg {
     fill: $color-stone;
   }
-  
+
+}
+
+.podcast-feature {
+  @extend .content-width;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 6em;
+
+  .podcast-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6em;
+    text-decoration: none;
+    font-weight: 600;
+    color: $color-ink;
+    border-bottom: 2px solid $color-chalk;
+    padding-bottom: 0.25em;
+    transition: color 0.2s, border-color 0.2s;
+
+    svg {
+      fill: $color-ink;
+      flex-shrink: 0;
+      transition: fill 0.2s;
+    }
+
+    &:hover {
+      color: $color-stone;
+      border-color: $color-stone;
+
+      svg {
+        fill: $color-stone;
+      }
+    }
+  }
 }
 
 .content-block {

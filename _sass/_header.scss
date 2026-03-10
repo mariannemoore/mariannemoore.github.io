@@ -35,15 +35,20 @@ header {
         cursor: pointer;
     }
 
-    .instagram {
+    .social-icons {
         position: absolute;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 6em;
-        height: 8em;
         right: 0;
         top: 0;
+        height: 8em;
+        display: flex;
+        align-items: center;
+        padding-right: 2.25em;
+        gap: 19px;
+    }
+
+    .instagram,
+    .youtube {
+        display: flex;
         cursor: pointer;
     }
 }
