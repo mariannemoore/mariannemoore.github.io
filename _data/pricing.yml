@@ -38,7 +38,7 @@ additional:
   - service: Travel
     cost:
     description: |
-      If the event is outside of Victoria, <strong>$100 per hour</strong> of travel time will be applied. Single applications not held in my studio are subject to a travel and set-up fee starting at <strong>$50</strong>.
+      If the event is outside of Victoria, <strong>$100 per hour</strong> of travel time will be applied. For travel within one hour, a minimum travel and set-up fee of <strong>$50</strong> applies. Single applications not held in my studio are subject to a travel and set-up fee starting at <strong>$50</strong>.
   - service: Early Morning
     cost: 
     description: |
