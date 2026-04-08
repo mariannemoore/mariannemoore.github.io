@@ -34,7 +34,7 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>I strongly recommend it. A trial is where we get to know each other and build your look together — step by step — so there are no surprises on the day. It's a relaxed appointment where we can experiment, refine, and make sure you feel completely confident. Trials are booked separately from your wedding day service.</p>
+        <p>Yes, absolutely! A trial is where we get to know each other and build your look together, step by step, so there are no surprises on the day. It's a relaxed appointment where we can experiment, refine, and make sure you feel completely confident. Trials are booked separately from your wedding day service.</p>
       </div>
     </div>
 
@@ -44,17 +44,17 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>I specialize in what I'd describe as a hybrid between natural makeup and soft glam — makeup that enhances your features rather than masking them. Think luminous skin, defined eyes, and a polished finish that still looks and feels like you. My goal is always for you to look in the mirror and see the most radiant version of yourself, not someone you don't recognize.</p>
+        <p>I specialize in what I'd describe as a hybrid between natural makeup and soft glam, makeup that enhances your features rather than masking them. Think luminous skin, defined eyes, and a polished finish that still looks and feels like you. My goal is always for you to look in the mirror and see the most radiant version of yourself, not someone you don't recognize.</p>
       </div>
     </div>
 
     <div class="faq-item">
       <button class="faq-question" aria-expanded="false">
-        <span>I don't usually wear much makeup — will I feel comfortable?</span>
+        <span>I don't usually wear much makeup, will I feel comfortable?</span>
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>Absolutely. Many of my brides don't wear makeup day-to-day, and that's completely fine. My approach is collaborative — I'll work within your comfort zone and build the look gradually, checking in with you at each step. Your trial is the perfect opportunity for us to find the balance that feels right for you. You should feel like yourself, just elevated.</p>
+        <p>Absolutely. Many of my brides don't wear makeup day-to-day, and that's completely fine. My approach is collaborative, I'll work within your comfort zone and build the look gradually, checking in with you at each step. Your trial is the perfect opportunity for us to find the balance that feels right for you. You should feel like yourself, just elevated.</p>
       </div>
     </div>
 
@@ -74,7 +74,7 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>Yes — longevity and photography are at the heart of how I work. I use professional, long-wearing products and techniques specifically designed for all-day wear and to look beautiful on camera. From proper skin prep through to setting, every step is designed to ensure your makeup looks as good in your last dance photos as it did walking down the aisle.</p>
+        <p>Yes, longevity and photography are at the heart of how I work. I use professional, long-wearing products and techniques specifically designed for all-day wear and to look beautiful on camera. From proper skin prep through to setting, every step is designed to ensure your makeup looks as good in your last dance photos as it did walking down the aisle.</p>
       </div>
     </div>
 
@@ -94,7 +94,7 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>I recommend reaching out as soon as you have your date confirmed — popular dates during peak wedding season (May through October on Vancouver Island) can fill up quickly. Booking 12 months in advance is ideal, but I'm always happy to check availability for shorter timelines.</p>
+        <p>I recommend reaching out as soon as you have your date confirmed, as popular dates during peak wedding season (May through October on Vancouver Island) can fill up quickly. Booking 12 months in advance is ideal, but I'm always happy to check availability for shorter timelines.</p>
       </div>
     </div>
   </div>
@@ -110,7 +110,7 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>Pricing varies depending on your needs — whether it's just you or a full bridal party, your location, and whether you'd like a trial. You can find my current pricing on my <a href="/pricing/">pricing page</a>, or feel free to <a href="/contact/">get in touch</a> and I'll put together a personalized quote based on your wedding details.</p>
+        <p>Pricing varies depending on your needs. You can find my current pricing on my <a href="/pricing/">pricing page</a>, or feel free to <a href="/contact/">get in touch</a> and I'll put together a personalized quote based on your wedding details.</p>
       </div>
     </div>
 
@@ -140,7 +140,7 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>Life happens, and I completely understand that plans can change. My cancellation and rescheduling terms are outlined in the contract you'll receive at booking. I try to be as flexible and fair as possible — if your plans shift, just reach out and we'll figure it out together.</p>
+        <p>Life happens, and I completely understand that plans can change. My cancellation and rescheduling terms are outlined in the contract you'll receive at booking. I try to be as flexible and fair as possible. If your plans shift, just reach out and we'll figure it out together.</p>
       </div>
     </div>
   </div>
@@ -166,7 +166,7 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>I'm based in Victoria and mainly serve the Greater Victoria area, including Saanich, Sidney, Langford, Sooke, and the surrounding communities. I also travel to other parts of Vancouver Island and the Gulf Islands for weddings. A travel fee will apply depending on distance and I'll include it in your quote.</p>
+        <p>I'm based in Victoria and mainly serve the Greater Victoria area, including Saanich, Sidney, Langford, Sooke, and the surrounding communities. A travel fee will apply depending on distance and I'll include it in your quote.</p>
       </div>
     </div>
 
@@ -192,7 +192,7 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>Great makeup starts with great skin. In the months leading up to your wedding, focus on consistency: a gentle cleanser, a good moisturizer suited to your skin type, and daily SPF. Hydration from the inside matters too — drink plenty of water. If you're thinking about adding new treatments or products to your routine, start early so your skin has time to adjust well before the big day.</p>
+        <p>Great makeup starts with great skin. In the months leading up to your wedding, focus on consistency: a gentle cleanser, a good moisturizer suited to your skin type, and daily SPF. Hydration from the inside matters too, so drink plenty of water. If you're thinking about adding new treatments or products to your routine, start early so your skin has time to adjust well before the big day.</p>
       </div>
     </div>
 
@@ -202,7 +202,7 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>A hydrating facial can be a lovely addition to your pre-wedding prep — but timing matters. I'd recommend scheduling any facials at least two weeks before the wedding, not the week of. This gives your skin time to settle and avoids any potential reactions or sensitivity. Avoid extractions or aggressive treatments close to the day.</p>
+        <p>A hydrating facial can be a lovely addition to your pre-wedding prep, but timing matters. I'd recommend scheduling any facials at least two weeks before the wedding, not the week of. This gives your skin time to settle and avoids any potential reactions or sensitivity. Avoid extractions or aggressive treatments close to the day.</p>
       </div>
     </div>
 
@@ -212,7 +212,7 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>I always advise against introducing anything new in the final 4–6 weeks before your wedding. New products can cause unexpected reactions, breakouts, or sensitivity — and that's the last thing you want. Stick with what your skin already knows and loves. If you're looking to upgrade your routine, start at least 3–6 months out.</p>
+        <p>I always advise against introducing anything new in the final 4–6 weeks before your wedding. New products can cause unexpected reactions, breakouts, or sensitivity, and that's the last thing you want. Stick with what your skin already knows and loves. If you're looking to upgrade your routine, start at least 3–6 months out.</p>
       </div>
     </div>
 
@@ -222,13 +222,13 @@ h1=site.data.pages.faq.callout-1
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
-        <p>Clean and moisturized — that's all you need. Apply your regular moisturizer, but skip any heavy serums, oils, or thick creams that could affect makeup adhesion. I'll take care of the rest with a proper skin prep before we begin. You're in good hands.</p>
+        <p>Clean and moisturized, that's all you need. Apply your regular moisturizer, but skip any heavy serums, oils, or thick creams that could affect makeup adhesion. I'll take care of the rest with a proper skin prep before we begin. You're in good hands.</p>
       </div>
     </div>
 
     <div class="faq-item">
       <button class="faq-question" aria-expanded="false">
-        <span>I have sensitive skin or allergies — can you accommodate that?</span>
+        <span>I have sensitive skin or allergies, can you accommodate that?</span>
         <div class="faq-icon" aria-hidden="true"></div>
       </button>
       <div class="faq-answer">
@@ -298,7 +298,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "name": "What style of makeup do you specialize in?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "A hybrid between natural makeup and soft glam — makeup that enhances your features rather than masking them. Think luminous skin, defined eyes, and a polished finish that still looks and feels like you."
+        "text": "A hybrid between natural makeup and soft glam, makeup that enhances your features rather than masking them. Think luminous skin, defined eyes, and a polished finish that still looks and feels like you."
       }
     },
     {
@@ -306,7 +306,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "name": "How much does bridal makeup cost?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Pricing varies depending on your needs — whether it's just you or a full bridal party, your location, and whether you'd like a trial. Visit the pricing page at mariannemakeup.com/pricing or get in touch for a personalized quote."
+        "text": "Pricing varies depending on your needs. Visit the pricing page at mariannemakeup.com/pricing or get in touch for a personalized quote."
       }
     },
     {
@@ -322,7 +322,7 @@ document.addEventListener("DOMContentLoaded", function() {
       "name": "What areas do you serve for wedding makeup on Vancouver Island?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Based in Victoria, mainly serving the Greater Victoria area including Saanich, Sidney, Langford, and Sooke. Also travels to other parts of Vancouver Island and the Gulf Islands. A travel fee will apply depending on distance."
+        "text": "Based in Victoria, mainly serving the Greater Victoria area including Saanich, Sidney, Langford, and Sooke. A travel fee will apply depending on distance."
       }
     },
     {
@@ -343,7 +343,7 @@ document.addEventListener("DOMContentLoaded", function() {
     },
     {
       "@type": "Question",
-      "name": "I have sensitive skin or allergies — can you accommodate that?",
+      "name": "I have sensitive skin or allergies, can you accommodate that?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Absolutely. With 20 years in the beauty industry, Marianne is well-equipped to work with sensitive, reactive, or allergy-prone skin. Share any allergies or concerns in your inquiry form or consultation call."
