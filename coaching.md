@@ -62,6 +62,12 @@ content=site.data.pages.coaching.content-2
 
 {% include lessons/testimonial-block.html testimonial=1 %}
 
+{%
+include content-block.html
+h2=site.data.pages.coaching.callout-4
+content=site.data.pages.coaching.content-4
+%}
+
 {% include coaching/coaching-options.html %}
 
 {%

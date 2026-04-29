@@ -3,40 +3,34 @@
     .full-width-block-content {
         display: flex;
         flex-wrap: wrap;
+        gap: 1em;
     }
-    
+
     .lesson-card-1,
-    .lesson-card-2 {
-        flex: 50%;
-    
+    .lesson-card-2,
+    .lesson-card-3 {
+        flex: 1 1 0;
+        min-width: 0;
+
         @media screen and (max-width: $breakpoint-small) {
-            flex: 100%;
+            flex: 1 1 100%;
         }
-    
+
         .button-row a {
             display: block;
         }
     }
-    
+
     .lesson-card-inner {
         padding: $measure;
         background-color: $color-background;
-    }
+        height: 100%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
 
-    .lesson-card-1 .lesson-card-inner {
-        margin-right: 0.5em;
-        
-        @media screen and (max-width: $breakpoint-small) {
-            margin: 0;
-            margin-bottom: 1em;
-        }
-    }
-
-    .lesson-card-2 .lesson-card-inner {
-        margin-left: 0.5em;
-
-        @media screen and (max-width: $breakpoint-small) {
-            margin: 0;
+        .button-row {
+            margin-top: auto;
         }
     }
     

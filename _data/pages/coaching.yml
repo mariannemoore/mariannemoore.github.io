@@ -4,14 +4,21 @@ callout-2: This isn’t just about makeup, it’s about building a sustainable, 
 content-2: In the 1-1 coaching  session, we’ll spend 3 hrs together working through <span>essential</span> techniques, problem-solving strategies, kit must-haves, and best practices for hygiene and sanitation. Together, we’ll build a look step-by-step, giving you access to my full professional kit and real-time guidance throughout. You’ll also receive support in capturing content to grow your brand, plus a curated PDF of my most recommended products to help you build your dream kit. You’ll leave with new skills, renewed confidence and fresh content for your portfolio and socials.
 callout-3: Not ready to go all in yet? Start with a focused strategy call
 content-3: Designed for artists who want focused, actionable guidance, this 90-minute call is your space to ask questions, gain clarity, and move forward with confidence. Whether you’re refining your pricing, building your bridal packages, improving your client journey, or planning content that actually converts we’ll deep-dive into what matters most to you. You’ll leave the session with practical strategies, renewed direction, and personalized insight.
+callout-4: "Beyond the brush: coaching for the whole business"
+content-4: Great artistry gets you in the room. But building a sustainable business takes more than talent, it takes systems, strategy, and the bandwidth to actually act on both. My coaching offerings cover all of it, whether you want to refine your craft in person, get focused clarity on a call, or learn how to use AI to finally get on top of the business tasks that have been sitting on your to-do list for months.
 coaching: 
   - title: 1-1 Coaching Session
-    content: For the artist who craves 1-1 inspiration and feedback. Lets take your artistry and business to the next level. 
+    content: For the artist who craves 1-1 inspiration and feedback. Lets take your artistry, kit and customer service to the next level.
     price: $600
     time: 3hrs
     url: https://mariannemakeup.hbportal.co/public/artistcoaching/1-Lesson_Inquiry_Form
   - title: Coaching Call
-    content: This virtual session is tailored to your goals. Ask anything and leave with next steps that actually move the needle. 
+    content: This virtual session is tailored to your goals. Ask anything and leave with next steps that actually move the needle.
     price: $200
     time: 1.5hrs
     url: https://mariannemakeup.hbportal.co/public/coachingcall
+  - title: AI Strategy Call
+    content: This virtual session is all about optimizing your business. I'll show you how I use AI to run mine, and we'll build a workflow you can action immediately.
+    price: $200
+    time: 1hr
+    url: https://mariannemakeup.hbportal.co/public/69ed90dbf3433300330e0b07
