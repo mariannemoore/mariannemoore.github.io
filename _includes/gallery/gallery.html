@@ -1,8 +1,12 @@
 <section class="image-gallery-grid">
     {% assign image_files = site.static_files | where: "image", true %}
     {% for image in image_files %}
+    {% assign credit = site.data.gallery | where: "file", image.name | first %}
     <div class="image">
         <img src="{{ image.path }}" alt="Makeup portfolio by Marianne Moore, Victoria BC" loading="lazy">
+        {% if credit %}
+        <span class="credit">{{ credit.photographer }}</span>
+        {% endif %}
     </div>
     {% endfor %}
 </section>

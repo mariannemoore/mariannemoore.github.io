@@ -4,6 +4,8 @@
 
     .image {
         flex: 1 1 33.333%;
+        position: relative;
+        overflow: hidden;
 
         @media screen and (max-width: $breakpoint-small) {
             flex: 1 1 50%;
@@ -13,6 +15,39 @@
             display: block;
             width: 100%;
             height: auto;
+        }
+
+        img {
+            transition: opacity 0.25s ease;
+        }
+
+        .credit {
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.96);
+            padding: 0.75em 1.25em;
+            color: #221200;
+            background: rgba(247, 240, 229, 0.96);
+            font-size: 0.875em;
+            text-align: center;
+            max-width: 80%;
+            border-radius: 4px;
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.18);
+            opacity: 0;
+            transition: opacity 0.2s ease, transform 0.2s ease;
+            pointer-events: none;
+        }
+
+        &:hover img,
+        &:focus-within img {
+            opacity: 0.85;
+        }
+
+        &:hover .credit,
+        &:focus-within .credit {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
         }
     }
 }
