@@ -62,6 +62,7 @@ image-grid.html
 img-1="/assets/bridal/bridal-1.jpg"
 img-2="/assets/bridal/bridal-2.jpg"
 img-3="/assets/bridal/bridal-3.jpg"
+height=1535
 alt-1="Bridal makeup by Marianne Moore"
 alt-2="Wedding day makeup look"
 alt-3="Bride makeup application Victoria BC"
