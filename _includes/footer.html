@@ -17,7 +17,11 @@
             </div>
             {% unless page.class == "gallery" %}
             <div class="footer-right" style="text-align: right;">
+                {% if page.class == "bridal" %}
+                <p style="margin: 0; font-size: 0.875em; color: #685F54;">Photography by <a href="https://www.georgiajohnston.com/" target="_blank" rel="noopener">Georgia Johnston Photography</a> and <a href="https://lillyannphotography.com/" target="_blank" rel="noopener">Of Ocean and Earth Photography</a></p>
+                {% else %}
                 <p style="margin: 0; font-size: 0.875em; color: #685F54;">Photography by <a href="https://carissamariephotography.ca/" target="_blank" rel="noopener">Carissa Marie Photography</a></p>
+                {% endif %}
             </div>
             {% endunless %}
         </div>
