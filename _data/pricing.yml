@@ -1,19 +1,19 @@
 bridal:
   - service: Bridal Makeup Trial
-    cost: $220
+    cost: $240
     description:
   - service: Bridal Makeup
-    cost: $450
+    cost: $480
     description:
   - service: Bridal Party Makeup
-    cost: $220
+    cost: $240
     description:
 bride-only:
   - service: Bride-only Makeup Trial
-    cost: $220
+    cost: $240
     description:
   - service: Bride-only Makeup
-    cost: $500
+    cost: $580
     description:
 general:
   - service: Makeup Lesson (2hrs)
