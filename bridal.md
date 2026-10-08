@@ -15,7 +15,7 @@ description: "Natural, effortless bridal makeup in Victoria BC. Personalized con
             "name": "How much does bridal makeup cost in Victoria BC?",
             "acceptedAnswer": {
                 "@type": "Answer",
-                "text": "Bridal makeup starts at $450 CAD, which includes wedding day application with luxury, long-wearing products. A bridal makeup trial is $220 CAD. Bridal party makeup is $220 CAD per person. View the full pricing page at mariannemakeup.com/pricing."
+                "text": "Bridal makeup starts at $480 CAD, which includes wedding day application with luxury, long-wearing products. A bridal makeup trial is $240 CAD. Bridal party makeup is $240 CAD per person. View the full pricing page at mariannemakeup.com/pricing."
             }
         },
         {
