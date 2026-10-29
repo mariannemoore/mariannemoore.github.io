@@ -7,4 +7,4 @@ description: "Browse the makeup portfolio of Marianne Moore, featuring bridal, e
 
 {% include gallery/gallery.html %}
 
-{% include about/testimonial-block.html testimonial=1 %}
+{% include about/testimonial-block.html testimonial=2 %}

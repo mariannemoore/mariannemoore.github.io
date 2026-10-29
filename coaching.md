@@ -60,7 +60,7 @@ content=site.data.pages.coaching.content-2
 
 {% include divider.html %}
 
-{% include lessons/testimonial-block.html testimonial=1 %}
+{% include lessons/testimonial-block.html testimonial=10 %}
 
 {%
 include content-block.html

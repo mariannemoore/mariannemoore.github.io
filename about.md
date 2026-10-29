@@ -35,7 +35,7 @@ buttonLabel="Inquire"
 
 {% include divider.html %}
 
-{% include about/testimonial-block.html testimonial=3 %}
+{% include about/testimonial-block.html testimonial=5 %}
 
 {% include divider.html %}
 
