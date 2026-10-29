@@ -42,7 +42,11 @@ additional:
   - service: Early Morning
     cost: 
     description: |
-      If the call time is before 8am an additional fee of <strong>$150</strong> will be applied. 
+      If the call time is before 8am an additional fee of <strong>$150</strong> will be applied.
+  - service: Holiday Weekend
+    cost:
+    description: |
+      For weddings taking place on a long weekend (Victoria Day, Canada Day, BC Day and Labour Day), an additional fee of <strong>$150</strong> will be applied. This applies to wedding-day services only.
   - service: Trial Waiver
     cost: 
     description: |
