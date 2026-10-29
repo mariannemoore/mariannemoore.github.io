@@ -44,6 +44,11 @@ header {
         align-items: center;
         padding-right: 2.25em;
         gap: 19px;
+
+        @media screen and (max-width: $breakpoint-small) {
+            padding-right: 1.25em;
+            gap: 10px;
+        }
     }
 
     .instagram,
